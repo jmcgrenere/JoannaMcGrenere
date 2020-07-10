@@ -1,4 +1,41 @@
 // deneb_banner
+.jm-banner {
+	padding-left: 26%;
+	margin-top: 7%;
+	.fa {
+		color: $theme_color;
+		padding-right: 5px;
+	}
+	.jm-icons {
+		margin: 5px 0;
+		color: black;
+	}
+	.jm-pronouns {
+		font-size: 20px;
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+	.jm-title{
+		margin-bottom: 0px;
+		font-size: 20px;
+		color: black;
+	}
+	.jm-workplace{
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	p {
+		margin: 0px;
+	}
+	.jm-calendar {
+		margin-top: 32px;
+		&:hover{
+			box-shadow: 2.5px 4.33px 15px 0px rgb(194, 210, 245);;
+		}
+	}
+}
+
+
 .deneb_banner{
 	position: relative;
 	padding-top: 120px;
@@ -24,12 +61,9 @@
 						color: $theme_color;
 					}
 				}
-				h5{
+				h5 {
 					font-weight: 500;
 					margin-bottom: 15px;
-				}
-				p{
-					margin-bottom: 36px;
 				}
 			}
 			.deneb_img_box{

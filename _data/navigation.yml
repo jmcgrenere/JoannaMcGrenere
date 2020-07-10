@@ -1,17 +1,16 @@
 #Please use the main menu items under the "text"
-- text: About Us
+- text: Research
   url: /about
-- text: Services
+- text: Teaching
   url: /services
-- text: Portfolios 
+- text: Services
   url: /portfolios
-- text: Blog
+- text: Biography
   url: /blog
   submenu:
   - text: Blog Details
     url: /wordpress-hosting
   - text: 404
     url: /404
-- text: Contact Us
-  url: /contact
+
  

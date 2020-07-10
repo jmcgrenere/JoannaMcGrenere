@@ -3,7 +3,7 @@
 
     Template Name: Deneb - A Digital Agency HTML Template
     Template URI: 
-    Description: Deneb - Deneb is a Digital Agency html Template designed keeping in mind all types of agencies such as SEO Agency,Web Design Agency, Web Dev Agency etc. It comes with 6 Layered html files. All layers and objects are perfectly customizable and grouped properly. You can easily edit files and create custom designs.
+    Description: Deneb – Deneb is a Digital Agency html Template designed keeping in mind all types of agencies such as SEO Agency,Web Design Agency, Web Dev Agency etc. It comes with 6 Layered html files. All layers and objects are perfectly customizable and grouped properly. You can easily edit files and create custom designs.
     Author: 
     Author URI: 
     Version: 1.0
@@ -100,11 +100,6 @@ body {
   font-weight: normal;
   overflow-x: hidden; }
 
-.section-ptb {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .bg_image {
   position: relative;
   background-size: cover;
@@ -114,10 +109,9 @@ body {
 .section_padding {
   padding: 100px 0; }
 
-.section-padding-2 {
-    padding: 40px 0;
-   }
-
+.section-ptb {
+  padding-top: 120px;
+  padding-bottom: 120px; }
 
 .section_title {
   max-width: 570px;
@@ -138,6 +132,7 @@ body {
       width: 96px;
       height: 67px;
       z-index: -1; }
+
 .deneb_btn {
   display: inline-block;
   min-width: 127px;
@@ -145,7 +140,7 @@ body {
   color: #fff;
   font: 500 15px "Poppins", sans-serif;
   text-align: center;
-  background: #feb000;
+  background: #0779e4;
   line-height: 45px;
   border-radius: 23px;
   text-transform: uppercase;
@@ -156,28 +151,9 @@ body {
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s; }
   .deneb_btn:hover, .deneb_btn:focus {
-    color: #fff;
+    color: #fff !important;
     box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4); }
-.header_area .sidenav_menu .sidebar-menu li .deneb_btn {
-    display: inline-block;
-    min-width: 135px;
-    height: 45px;
-    color: #fff;
-    font: 500 15px "Poppins", sans-serif;
-    text-align: center;
-    background: #feb000;
-    border-radius: 23px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    -webkit-transition: all 0.5s ease-out 0s;
-    -moz-transition: all 0.5s ease-out 0s;
-    -ms-transition: all 0.5s ease-out 0s;
-    -o-transition: all 0.5s ease-out 0s;
-    transition: all 0.5s ease-out 0s;
-    line-height: 22px;
-    border-left:none;
-    padding-left: 10px;
-}
+
 .link_btn {
   color: #011a3e; }
   .link_btn:before {
@@ -186,9 +162,9 @@ body {
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     margin-right: 10px;
-    color: #feb000; }
+    color: #0779e4; }
   .link_btn:hover, .link_btn:focus {
-    color: #feb000; }
+    color: #0779e4; }
 
 .form_control {
   width: 100%; }
@@ -224,7 +200,7 @@ input.form_control {
     height: 80px; }
     .preloader .lds-ripple div {
       position: absolute;
-      border: 4px solid #feb000;
+      border: 4px solid #0779e4;
       opacity: 1;
       border-radius: 50%;
       animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
@@ -257,7 +233,7 @@ input.form_control {
     .header_area .site_menu .primary_menu .main_menu ul li {
       position: relative;
       display: inline-block;
-      margin-left: 40px; }
+      margin-left: 88px; }
       .header_area .site_menu .primary_menu .main_menu ul li a {
         display: block;
         padding: 17px 0;
@@ -308,7 +284,7 @@ input.form_control {
             visibility: visible;
             opacity: 1; }
           .header_area .site_menu .primary_menu .main_menu ul li ul.sub-menu li:hover a {
-            color: #feb000; }
+            color: #0779e4; }
           .header_area .site_menu .primary_menu .main_menu ul li ul.sub-menu li ul.sub-menu {
             top: 0;
             left: 100%;
@@ -319,7 +295,7 @@ input.form_control {
               padding: 5px 20px;
               color: #7a808d; }
             .header_area .site_menu .primary_menu .main_menu ul li ul.sub-menu li ul.sub-menu li:hover a {
-              color: #feb000; }
+              color: #0779e4; }
       .header_area .site_menu .primary_menu .main_menu ul li:hover ul.sub-menu {
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
@@ -336,7 +312,7 @@ input.form_control {
       bottom: 10px;
       width: 20px;
       height: 3px;
-      background: #feb000; }
+      background: #0779e4; }
   .header_area .mobile_wrapper {
     display: none; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -346,8 +322,7 @@ input.form_control {
     @media (max-width: 767px) {
       .header_area .mobile_wrapper {
         padding: 10px 0;
-        display: block; }
-    }
+        display: block; } }
     .header_area .mobile_wrapper .menu_button {
       float: right; }
       .header_area .mobile_wrapper .menu_button .menu_icon span {
@@ -403,7 +378,7 @@ input.form_control {
         line-height: 40px;
         text-align: center;
         background-color: #fff;
-        color: #feb000; }
+        color: #0779e4; }
     .header_area .sidenav_menu .sidebar-menu li {
       display: block;
       line-height: 40px; }
@@ -417,7 +392,7 @@ input.form_control {
         .header_area .sidenav_menu .sidebar-menu li a .deneb_btn {
           padding: 0; }
     .header_area .sidenav_menu .sidebar-menu .active a {
-      color: #feb000; }
+      color: #0779e4; }
   .header_area .active {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -443,6 +418,33 @@ input.form_control {
   .header_area.sticky .site_menu {
     padding: 10px 0; }
 
+.jm-banner {
+  padding-left: 26%;
+  margin-top: 7%; }
+  .jm-banner .fa {
+    color: #0779e4;
+    padding-right: 5px; }
+  .jm-banner .jm-icons {
+    margin: 5px 0;
+    color: black; }
+  .jm-banner .jm-pronouns {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px; }
+  .jm-banner .jm-title {
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: black; }
+  .jm-banner .jm-workplace {
+    font-size: 18px;
+    margin-bottom: 20px; }
+  .jm-banner p {
+    margin: 0px; }
+  .jm-banner .jm-calendar {
+    margin-top: 32px; }
+    .jm-banner .jm-calendar:hover {
+      box-shadow: 2.5px 4.33px 15px 0px #c2d2f5; }
+
 .deneb_banner {
   position: relative;
   padding-top: 120px;
@@ -462,12 +464,10 @@ input.form_control {
         font-size: 30px; } }
     .deneb_banner .hero_slider .signle_slider .banner_content h1 span {
       font-weight: bold;
-      color: #feb000; }
+      color: #0779e4; }
   .deneb_banner .hero_slider .signle_slider .banner_content h5 {
     font-weight: 500;
     margin-bottom: 15px; }
-  .deneb_banner .hero_slider .signle_slider .banner_content p {
-    margin-bottom: 36px; }
   .deneb_banner .hero_slider .signle_slider .deneb_img_box {
     position: relative;
     float: right;
@@ -485,7 +485,7 @@ input.form_control {
         height: 5px;
         border-radius: 50%; }
     .deneb_banner .hero_slider .slick-dots .slick-active {
-      background: #feb000; }
+      background: #0779e4; }
       .deneb_banner .hero_slider .slick-dots .slick-active button:before {
         width: 10px;
         height: 10px;
@@ -542,7 +542,7 @@ input.form_control {
     transition: all 0.5s ease-out 0s;
     border: 2px dashed #fff; }
     .deneb_service .grid_item:hover {
-      border-color: #feb000;
+      border-color: #0779e4;
       box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15); }
     .deneb_service .grid_item .icon {
       margin-bottom: 30px; }
@@ -606,7 +606,7 @@ input.form_control {
         .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item .nav-link span {
           display: block; }
         .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item .nav-link.active {
-          border-color: #feb000;
+          border-color: #0779e4;
           box-shadow: 5px 8.66px 27px 0px rgba(0, 0, 0, 0.15); }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service_wrapper .service_tab_wrap .tab-content .deneb_content_box {
@@ -765,7 +765,7 @@ input.form_control {
       margin-bottom: 12px; }
     .about_v2 .award_box .award_info h4 {
       font-weight: bold;
-      color: #feb000;
+      color: #0779e4;
       font-size: 20px; }
     .about_v2 .award_box .award_info h5 {
       font-size: 20px; }
@@ -786,7 +786,7 @@ input.form_control {
         margin-bottom: 10px; }
       .deneb_skill .skill_wrapper .single_bar .progress_title span {
         float: right;
-        color: #feb000; }
+        color: #0779e4; }
       .deneb_skill .skill_wrapper .single_bar .progress {
         overflow: visible;
         height: 20px;
@@ -796,7 +796,7 @@ input.form_control {
           overflow: visible;
           position: relative;
           border-radius: 10px;
-          background-color: #feb000; }
+          background-color: #0779e4; }
           .deneb_skill .skill_wrapper .single_bar .progress .progress-bar .dot {
             overflow: visible;
             position: absolute;
@@ -940,7 +940,7 @@ input.form_control {
       margin-bottom: 15px; }
     .deneb_experience .single_experience .deneb_info_box h6 {
       font-size: 20px;
-      color: #feb000;
+      color: #0779e4;
       font-weight: 600; }
 
 .project_v1 .project_button {
@@ -984,24 +984,24 @@ input.form_control {
       width: 15px;
       height: 5px; }
   .project_v1 .projects_slider_content .slick-dots .slick-active {
-    background: #feb000; }
+    background: #0779e4; }
 .project_v1 .grid_item {
   overflow: hidden;
   background: #fff;
   border-radius: 10px;
-  margin-bottom: 10px;
   -webkit-transition: all 0.5s ease-out 0s;
   -moz-transition: all 0.5s ease-out 0s;
   -ms-transition: all 0.5s ease-out 0s;
   -o-transition: all 0.5s ease-out 0s;
-  transition: all 0.5s ease-out 0s; }
+  transition: all 0.5s ease-out 0s;
+  margin-bottom: 10px; }
   @media (max-width: 767px) {
     .project_v1 .grid_item {
       margin-bottom: 40px; } }
   .project_v1 .grid_item:hover {
     box-shadow: 4px 6.928px 15px 0px rgba(0, 0, 0, 0.15); }
     .project_v1 .grid_item:hover .deneb_info h4 a {
-      color: #feb000; }
+      color: #0779e4; }
   .project_v1 .grid_item .deneb_info {
     padding: 30px; }
     .project_v1 .grid_item .deneb_info h4 {
@@ -1049,7 +1049,7 @@ input.form_control {
   .project_v2 .grid_wrapper .grid_item:hover {
     box-shadow: 4px 6.928px 15px 0px rgba(0, 0, 0, 0.15); }
     .project_v2 .grid_wrapper .grid_item:hover .deneb_info h4 a {
-      color: #feb000; }
+      color: #0779e4; }
   .project_v2 .grid_wrapper .grid_item .deneb_info {
     padding: 30px; }
     .project_v2 .grid_wrapper .grid_item .deneb_info h4 {
@@ -1089,7 +1089,7 @@ input.form_control {
     .deneb_pricing .pircing_box {
       margin-bottom: 60px; } }
   .deneb_pricing .pircing_box:hover {
-    border-color: #feb000;
+    border-color: #0779e4;
     box-shadow: 5px 8.66px 24px 0px rgba(0, 0, 0, 0.15); }
   .deneb_pricing .pircing_box .icon {
     margin-bottom: 30px; }
@@ -1106,7 +1106,7 @@ input.form_control {
       font-size: 40px; }
       .deneb_pricing .pircing_box .price h2 span {
         font-size: 20px;
-        color: #feb000; }
+        color: #0779e4; }
   .deneb_pricing .pircing_box .button_box .deneb_btn {
     min-width: 158px; }
 
@@ -1222,7 +1222,7 @@ input.form_control {
           width: 15px;
           height: 5px; }
       .deneb_testimonial .testimonial_slide .slick-dots .slick-active {
-        background: #feb000; }
+        background: #0779e4; }
 
 .deneb_testimonial .section_title h2 {
   position: relative; }
@@ -1262,7 +1262,7 @@ input.form_control {
     .blog_v1 .grid_item .deneb_info {
       padding: 25px 30px 22px; }
       .blog_v1 .grid_item .deneb_info .date {
-        color: #feb000;
+        color: #0779e4;
         margin-bottom: 7px;
         display: block; }
       .blog_v1 .grid_item .deneb_info h3 {
@@ -1366,7 +1366,7 @@ input.form_control {
       border-right: 3px solid #e1e1e1; }
       .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .icon i {
         font-size: 40px;
-        color: #feb000; }
+        color: #0779e4; }
     .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .info {
       padding-left: 15px; }
       .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .info h4 {
@@ -1433,7 +1433,7 @@ input.form_control {
       font-size: 18px;
       font-weight: 600; }
     .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .info a {
-      color: #feb000; }
+      color: #0779e4; }
       .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .info a i {
         margin-right: 10px; }
 .deneb_single_blog .single_blog_wrapper .comment_form_wrap h3 {
@@ -1450,7 +1450,7 @@ input.form_control {
     padding-left: 20px;
     box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15); }
     .deneb_single_blog .single_blog_wrapper .comment_form_wrap .comment_form .form_group .form_control:focus {
-      border: 1px solid #feb000; }
+      border: 1px solid #0779e4; }
   .deneb_single_blog .single_blog_wrapper .comment_form_wrap .comment_form .form_group textarea {
     padding-top: 20px;
     min-height: 145px; }
@@ -1646,7 +1646,7 @@ input.form_control {
           .deneb_achivement .achivment_wrapper .single_achivment:nth-child(even) {
             margin-top: 0; } }
       .deneb_achivement .achivment_wrapper .single_achivment:hover {
-        border-color: #feb000;
+        border-color: #0779e4;
         box-shadow: 5px 8.66px 22px 0px rgba(0, 0, 0, 0.15); }
       .deneb_achivement .achivment_wrapper .single_achivment:nth-child(even) {
         margin-top: 35px; }
@@ -1654,7 +1654,7 @@ input.form_control {
         margin-bottom: 15px; }
       .deneb_achivement .achivment_wrapper .single_achivment h3 {
         margin-bottom: 5px;
-        color: #feb000;
+        color: #0779e4;
         font-weight: 600; }
 
 .deneb_achivement .section_title h2 {
@@ -1669,7 +1669,7 @@ input.form_control {
       font-size: 36px; } }
   .deneb_breadcrumb .breadcrumb_content ul li {
     display: inline-block;
-    color: #000;
+    color: #0779e4;
     text-transform: uppercase; }
     .deneb_breadcrumb .breadcrumb_content ul li:after {
       content: '\f105';
@@ -1681,7 +1681,7 @@ input.form_control {
       display: none; }
     .deneb_breadcrumb .breadcrumb_content ul li a {
       text-transform: uppercase;
-      color: #000; }
+      color: #0779e4; }
 
 .deneb_pagination ul li {
   display: inline-block;
@@ -1781,7 +1781,7 @@ input.form_control {
     .deneb_sidebar .widget_archive ul li:hover a span,
     .deneb_sidebar .widget_categories ul li:hover a span {
       color: #fff;
-      background: #feb000; }
+      background: #0779e4; }
   .deneb_sidebar .widget_archive ul li a,
   .deneb_sidebar .widget_categories ul li a {
     color: #7f8693; }
@@ -1823,7 +1823,7 @@ input.form_control {
       .deneb_sidebar .featured_news .post_wrap .post_info h3 a {
         color: #626667; }
     .deneb_sidebar .featured_news .post_wrap .post_info p {
-      color: #feb000; }
+      color: #0779e4; }
 .deneb_sidebar .widget_tag_cloud ul li {
   display: inline-block;
   margin-right: 10px;
@@ -1908,7 +1908,7 @@ input.form_control {
       text-transform: capitalize;
       color: #7a808d; }
       .deneb_footer .widget_wrapper .widget_link ul li a:hover, .deneb_footer .widget_wrapper .widget_link ul li a:focus {
-        color: #feb000; }
+        color: #0779e4; }
   .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info {
     max-width: 250px;
     display: flex;
@@ -1916,7 +1916,7 @@ input.form_control {
     margin-bottom: 20px; }
     .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
       font-size: 12px;
-      color: #feb000;
+      color: #0779e4;
       margin-right: 10px; }
     .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
       color: #7a808d; }
@@ -1930,46 +1930,6 @@ input.form_control {
     .deneb_footer .copyright_area .copyright_text p {
       color: #011a3e; }
       .deneb_footer .copyright_area .copyright_text p span {
-        color: #feb000; }
+        color: #0779e4; }
 
-
-.social-share ul li {
-  display: inline-block;
-}
-
-.social-share ul li a i {
-  margin-right: 10px !important;
-  color: #ff8801;
-}
-.social-share ul li:nth-child(2) a i {
- margin-right:10px !important;
- margin-left:10px !important;
-}
-
-.social-share ul li:last-child a i {
- margin-right: 0 !important;
-}
-.tag a {
-  color: #a1a1a1;
-}
-
-#results-container {
- position: absolute;
- background-color: #feb000;
- border-radius:10px;
- margin-top: 10px;
-}
-
-#results-container li {
-  padding: 15px 15px 0 15px;
-}
-#results-container li:last-child {
-  padding-bottom: 15px;
-}
-#results-container li a {
-  transition: all .4s linear 0s;
-  display: inline-block;
-  color: #fff;
-  font-size: 16px;
-}
 /*# sourceMappingURL=style.css.map */
