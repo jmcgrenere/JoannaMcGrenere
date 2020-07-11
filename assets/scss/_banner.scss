@@ -1,7 +1,6 @@
 // deneb_banner
 .jm-banner {
-	padding-left: 26%;
-	margin-top: 7%;
+
 	.fa {
 		color: $theme_color;
 		padding-right: 5px;
@@ -29,6 +28,7 @@
 	}
 	.jm-calendar {
 		margin-top: 32px;
+		min-width: 200px;
 		&:hover{
 			box-shadow: 2.5px 4.33px 15px 0px rgb(194, 210, 245);;
 		}
@@ -73,6 +73,7 @@
 			}
 		}
 		.slick-dots{
+			display: none;
 			bottom: -50px;
 			li{
 				width: 5px;

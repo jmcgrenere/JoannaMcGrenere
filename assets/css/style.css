@@ -114,7 +114,6 @@ body {
   padding-bottom: 120px; }
 
 .section_title {
-  max-width: 570px;
   margin: auto;
   margin-bottom: 45px; }
   .section_title h2 {
@@ -418,32 +417,30 @@ input.form_control {
   .header_area.sticky .site_menu {
     padding: 10px 0; }
 
-.jm-banner {
-  padding-left: 26%;
-  margin-top: 7%; }
-  .jm-banner .fa {
-    color: #0779e4;
-    padding-right: 5px; }
-  .jm-banner .jm-icons {
-    margin: 5px 0;
-    color: black; }
-  .jm-banner .jm-pronouns {
-    font-size: 20px;
-    margin-top: 0px;
-    margin-bottom: 5px; }
-  .jm-banner .jm-title {
-    margin-bottom: 0px;
-    font-size: 20px;
-    color: black; }
-  .jm-banner .jm-workplace {
-    font-size: 18px;
-    margin-bottom: 20px; }
-  .jm-banner p {
-    margin: 0px; }
-  .jm-banner .jm-calendar {
-    margin-top: 32px; }
-    .jm-banner .jm-calendar:hover {
-      box-shadow: 2.5px 4.33px 15px 0px #c2d2f5; }
+.jm-banner .fa {
+  color: #0779e4;
+  padding-right: 5px; }
+.jm-banner .jm-icons {
+  margin: 5px 0;
+  color: black; }
+.jm-banner .jm-pronouns {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px; }
+.jm-banner .jm-title {
+  margin-bottom: 0px;
+  font-size: 20px;
+  color: black; }
+.jm-banner .jm-workplace {
+  font-size: 18px;
+  margin-bottom: 20px; }
+.jm-banner p {
+  margin: 0px; }
+.jm-banner .jm-calendar {
+  margin-top: 32px;
+  min-width: 200px; }
+  .jm-banner .jm-calendar:hover {
+    box-shadow: 2.5px 4.33px 15px 0px #c2d2f5; }
 
 .deneb_banner {
   position: relative;
@@ -473,6 +470,7 @@ input.form_control {
     float: right;
     margin-right: 18px; }
   .deneb_banner .hero_slider .slick-dots {
+    display: none;
     bottom: -50px; }
     .deneb_banner .hero_slider .slick-dots li {
       width: 5px;
@@ -942,6 +940,15 @@ input.form_control {
       font-size: 20px;
       color: #0779e4;
       font-weight: 600; }
+
+body p {
+  font-size: 18px; }
+
+.jm-research {
+  max-width: none; }
+  .jm-research h2 {
+    width: 517px;
+    margin: 14px auto; }
 
 .project_v1 .project_button {
   margin-bottom: 45px; }
