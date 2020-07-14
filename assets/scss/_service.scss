@@ -1,4 +1,15 @@
 // deneb_service
+.jm-edapt-container {
+	margin: auto;
+	.jm-edapt-btn {
+		position: relative;
+		bottom: 34px;
+		width: 200px;
+		&:hover {
+			box-shadow: 2.5px 4.33px 15px 0px #c2d2f5;
+		}
+	}
+}
 .deneb_service{
 	position: relative;
 	.grid_item{
@@ -9,10 +20,10 @@
 		border-radius: 8px;
 		@include transition(.5s);
 		border: 2px dashed $white;
-		&:hover{
-			border-color: $theme_color;
-			box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
-		}
+		//&:hover{
+		//	border-color: $theme_color;
+		//	box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
+		//}
 		.icon{
 			margin-bottom: 30px;
 		}

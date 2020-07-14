@@ -525,6 +525,15 @@ input.form_control {
   left: 40px;
   bottom: 60px; }
 
+.jm-edapt-container {
+  margin: auto; }
+  .jm-edapt-container .jm-edapt-btn {
+    position: relative;
+    bottom: 34px;
+    width: 200px; }
+    .jm-edapt-container .jm-edapt-btn:hover {
+      box-shadow: 2.5px 4.33px 15px 0px #c2d2f5; }
+
 .deneb_service {
   position: relative; }
   .deneb_service .grid_item {
@@ -539,9 +548,6 @@ input.form_control {
     -o-transition: all 0.5s ease-out 0s;
     transition: all 0.5s ease-out 0s;
     border: 2px dashed #fff; }
-    .deneb_service .grid_item:hover {
-      border-color: #0779e4;
-      box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15); }
     .deneb_service .grid_item .icon {
       margin-bottom: 30px; }
     .deneb_service .grid_item .info h4 {

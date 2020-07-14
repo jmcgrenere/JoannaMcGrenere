@@ -1,7 +1,7 @@
 ---
 layout: service
-title: "Web Solution"
-icon: "/assets/images/icon_3.png"
+title: "Qualitative & Quantitative Methods"
+icon: "/assets/images/methods.png"
 post_image: "/assets/images/services/09.jpg"
 ---
 

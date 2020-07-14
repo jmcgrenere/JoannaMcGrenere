@@ -1,7 +1,7 @@
 ---
 layout: service
-title: "Strategy & Research"
-icon: "/assets/images/icon_1.png"
+title: "Interactive Technologies for Older Adults"
+icon: "/assets/images/old.png"
 post_image: "/assets/images/services/07.jpg"
 ---
 
