@@ -139,7 +139,7 @@ body {
   color: #fff;
   font: 500 15px "Poppins", sans-serif;
   text-align: center;
-  background: #0779e4;
+  background: #1c27af;
   line-height: 45px;
   border-radius: 23px;
   text-transform: uppercase;
@@ -161,9 +161,9 @@ body {
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     margin-right: 10px;
-    color: #0779e4; }
+    color: #1c27af; }
   .link_btn:hover, .link_btn:focus {
-    color: #0779e4; }
+    color: #1c27af; }
 
 .form_control {
   width: 100%; }
@@ -199,7 +199,7 @@ input.form_control {
     height: 80px; }
     .preloader .lds-ripple div {
       position: absolute;
-      border: 4px solid #0779e4;
+      border: 4px solid #1c27af;
       opacity: 1;
       border-radius: 50%;
       animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
@@ -283,7 +283,7 @@ input.form_control {
             visibility: visible;
             opacity: 1; }
           .header_area .site_menu .primary_menu .main_menu ul li ul.sub-menu li:hover a {
-            color: #0779e4; }
+            color: #1c27af; }
           .header_area .site_menu .primary_menu .main_menu ul li ul.sub-menu li ul.sub-menu {
             top: 0;
             left: 100%;
@@ -294,7 +294,7 @@ input.form_control {
               padding: 5px 20px;
               color: #7a808d; }
             .header_area .site_menu .primary_menu .main_menu ul li ul.sub-menu li ul.sub-menu li:hover a {
-              color: #0779e4; }
+              color: #1c27af; }
       .header_area .site_menu .primary_menu .main_menu ul li:hover ul.sub-menu {
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
@@ -311,7 +311,7 @@ input.form_control {
       bottom: 10px;
       width: 20px;
       height: 3px;
-      background: #0779e4; }
+      background: #1c27af; }
   .header_area .mobile_wrapper {
     display: none; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -377,7 +377,7 @@ input.form_control {
         line-height: 40px;
         text-align: center;
         background-color: #fff;
-        color: #0779e4; }
+        color: #1c27af; }
     .header_area .sidenav_menu .sidebar-menu li {
       display: block;
       line-height: 40px; }
@@ -391,7 +391,7 @@ input.form_control {
         .header_area .sidenav_menu .sidebar-menu li a .deneb_btn {
           padding: 0; }
     .header_area .sidenav_menu .sidebar-menu .active a {
-      color: #0779e4; }
+      color: #1c27af; }
   .header_area .active {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -418,7 +418,7 @@ input.form_control {
     padding: 10px 0; }
 
 .jm-banner .fa {
-  color: #0779e4;
+  color: #1c27af;
   padding-right: 5px; }
 .jm-banner .jm-icons {
   margin: 5px 0;
@@ -436,15 +436,21 @@ input.form_control {
   margin-bottom: 20px; }
 .jm-banner p {
   margin: 0px; }
+.jm-banner .mail-align {
+  margin-left: 22px;
+  color: black;
+  max-width: 270px; }
 .jm-banner .jm-calendar {
   margin-top: 32px;
-  min-width: 200px; }
+  min-width: 280px; }
   .jm-banner .jm-calendar:hover {
     box-shadow: 2.5px 4.33px 15px 0px #c2d2f5; }
+.jm-banner .directions {
+  color: #80a2f1; }
 
 .deneb_banner {
   position: relative;
-  padding-top: 120px;
+  padding-top: 110px;
   padding-bottom: 10px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .deneb_banner .hero_slider .signle_slider .banner_content {
@@ -461,14 +467,14 @@ input.form_control {
         font-size: 30px; } }
     .deneb_banner .hero_slider .signle_slider .banner_content h1 span {
       font-weight: bold;
-      color: #0779e4; }
+      color: #1c27af; }
   .deneb_banner .hero_slider .signle_slider .banner_content h5 {
     font-weight: 500;
     margin-bottom: 15px; }
   .deneb_banner .hero_slider .signle_slider .deneb_img_box {
     position: relative;
     float: right;
-    margin-right: 18px; }
+    margin-right: -43px; }
   .deneb_banner .hero_slider .slick-dots {
     display: none;
     bottom: -50px; }
@@ -483,7 +489,7 @@ input.form_control {
         height: 5px;
         border-radius: 50%; }
     .deneb_banner .hero_slider .slick-dots .slick-active {
-      background: #0779e4; }
+      background: #1c27af; }
       .deneb_banner .hero_slider .slick-dots .slick-active button:before {
         width: 10px;
         height: 10px;
@@ -610,7 +616,7 @@ input.form_control {
         .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item .nav-link span {
           display: block; }
         .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item .nav-link.active {
-          border-color: #0779e4;
+          border-color: #1c27af;
           box-shadow: 5px 8.66px 27px 0px rgba(0, 0, 0, 0.15); }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service_wrapper .service_tab_wrap .tab-content .deneb_content_box {
@@ -769,7 +775,7 @@ input.form_control {
       margin-bottom: 12px; }
     .about_v2 .award_box .award_info h4 {
       font-weight: bold;
-      color: #0779e4;
+      color: #1c27af;
       font-size: 20px; }
     .about_v2 .award_box .award_info h5 {
       font-size: 20px; }
@@ -790,7 +796,7 @@ input.form_control {
         margin-bottom: 10px; }
       .deneb_skill .skill_wrapper .single_bar .progress_title span {
         float: right;
-        color: #0779e4; }
+        color: #1c27af; }
       .deneb_skill .skill_wrapper .single_bar .progress {
         overflow: visible;
         height: 20px;
@@ -800,7 +806,7 @@ input.form_control {
           overflow: visible;
           position: relative;
           border-radius: 10px;
-          background-color: #0779e4; }
+          background-color: #1c27af; }
           .deneb_skill .skill_wrapper .single_bar .progress .progress-bar .dot {
             overflow: visible;
             position: absolute;
@@ -944,7 +950,7 @@ input.form_control {
       margin-bottom: 15px; }
     .deneb_experience .single_experience .deneb_info_box h6 {
       font-size: 20px;
-      color: #0779e4;
+      color: #1c27af;
       font-weight: 600; }
 
 body p {
@@ -997,7 +1003,7 @@ body p {
       width: 15px;
       height: 5px; }
   .project_v1 .projects_slider_content .slick-dots .slick-active {
-    background: #0779e4; }
+    background: #1c27af; }
 .project_v1 .grid_item {
   overflow: hidden;
   background: #fff;
@@ -1014,7 +1020,7 @@ body p {
   .project_v1 .grid_item:hover {
     box-shadow: 4px 6.928px 15px 0px rgba(0, 0, 0, 0.15); }
     .project_v1 .grid_item:hover .deneb_info h4 a {
-      color: #0779e4; }
+      color: #1c27af; }
   .project_v1 .grid_item .deneb_info {
     padding: 30px; }
     .project_v1 .grid_item .deneb_info h4 {
@@ -1062,7 +1068,7 @@ body p {
   .project_v2 .grid_wrapper .grid_item:hover {
     box-shadow: 4px 6.928px 15px 0px rgba(0, 0, 0, 0.15); }
     .project_v2 .grid_wrapper .grid_item:hover .deneb_info h4 a {
-      color: #0779e4; }
+      color: #1c27af; }
   .project_v2 .grid_wrapper .grid_item .deneb_info {
     padding: 30px; }
     .project_v2 .grid_wrapper .grid_item .deneb_info h4 {
@@ -1102,7 +1108,7 @@ body p {
     .deneb_pricing .pircing_box {
       margin-bottom: 60px; } }
   .deneb_pricing .pircing_box:hover {
-    border-color: #0779e4;
+    border-color: #1c27af;
     box-shadow: 5px 8.66px 24px 0px rgba(0, 0, 0, 0.15); }
   .deneb_pricing .pircing_box .icon {
     margin-bottom: 30px; }
@@ -1119,7 +1125,7 @@ body p {
       font-size: 40px; }
       .deneb_pricing .pircing_box .price h2 span {
         font-size: 20px;
-        color: #0779e4; }
+        color: #1c27af; }
   .deneb_pricing .pircing_box .button_box .deneb_btn {
     min-width: 158px; }
 
@@ -1235,7 +1241,7 @@ body p {
           width: 15px;
           height: 5px; }
       .deneb_testimonial .testimonial_slide .slick-dots .slick-active {
-        background: #0779e4; }
+        background: #1c27af; }
 
 .deneb_testimonial .section_title h2 {
   position: relative; }
@@ -1275,7 +1281,7 @@ body p {
     .blog_v1 .grid_item .deneb_info {
       padding: 25px 30px 22px; }
       .blog_v1 .grid_item .deneb_info .date {
-        color: #0779e4;
+        color: #1c27af;
         margin-bottom: 7px;
         display: block; }
       .blog_v1 .grid_item .deneb_info h3 {
@@ -1379,7 +1385,7 @@ body p {
       border-right: 3px solid #e1e1e1; }
       .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .icon i {
         font-size: 40px;
-        color: #0779e4; }
+        color: #1c27af; }
     .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .info {
       padding-left: 15px; }
       .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .info h4 {
@@ -1446,7 +1452,7 @@ body p {
       font-size: 18px;
       font-weight: 600; }
     .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .info a {
-      color: #0779e4; }
+      color: #1c27af; }
       .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .info a i {
         margin-right: 10px; }
 .deneb_single_blog .single_blog_wrapper .comment_form_wrap h3 {
@@ -1463,7 +1469,7 @@ body p {
     padding-left: 20px;
     box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15); }
     .deneb_single_blog .single_blog_wrapper .comment_form_wrap .comment_form .form_group .form_control:focus {
-      border: 1px solid #0779e4; }
+      border: 1px solid #1c27af; }
   .deneb_single_blog .single_blog_wrapper .comment_form_wrap .comment_form .form_group textarea {
     padding-top: 20px;
     min-height: 145px; }
@@ -1659,7 +1665,7 @@ body p {
           .deneb_achivement .achivment_wrapper .single_achivment:nth-child(even) {
             margin-top: 0; } }
       .deneb_achivement .achivment_wrapper .single_achivment:hover {
-        border-color: #0779e4;
+        border-color: #1c27af;
         box-shadow: 5px 8.66px 22px 0px rgba(0, 0, 0, 0.15); }
       .deneb_achivement .achivment_wrapper .single_achivment:nth-child(even) {
         margin-top: 35px; }
@@ -1667,7 +1673,7 @@ body p {
         margin-bottom: 15px; }
       .deneb_achivement .achivment_wrapper .single_achivment h3 {
         margin-bottom: 5px;
-        color: #0779e4;
+        color: #1c27af;
         font-weight: 600; }
 
 .deneb_achivement .section_title h2 {
@@ -1682,7 +1688,7 @@ body p {
       font-size: 36px; } }
   .deneb_breadcrumb .breadcrumb_content ul li {
     display: inline-block;
-    color: #0779e4;
+    color: #1c27af;
     text-transform: uppercase; }
     .deneb_breadcrumb .breadcrumb_content ul li:after {
       content: '\f105';
@@ -1694,7 +1700,7 @@ body p {
       display: none; }
     .deneb_breadcrumb .breadcrumb_content ul li a {
       text-transform: uppercase;
-      color: #0779e4; }
+      color: #1c27af; }
 
 .deneb_pagination ul li {
   display: inline-block;
@@ -1794,7 +1800,7 @@ body p {
     .deneb_sidebar .widget_archive ul li:hover a span,
     .deneb_sidebar .widget_categories ul li:hover a span {
       color: #fff;
-      background: #0779e4; }
+      background: #1c27af; }
   .deneb_sidebar .widget_archive ul li a,
   .deneb_sidebar .widget_categories ul li a {
     color: #7f8693; }
@@ -1836,7 +1842,7 @@ body p {
       .deneb_sidebar .featured_news .post_wrap .post_info h3 a {
         color: #626667; }
     .deneb_sidebar .featured_news .post_wrap .post_info p {
-      color: #0779e4; }
+      color: #1c27af; }
 .deneb_sidebar .widget_tag_cloud ul li {
   display: inline-block;
   margin-right: 10px;
@@ -1921,7 +1927,7 @@ body p {
       text-transform: capitalize;
       color: #7a808d; }
       .deneb_footer .widget_wrapper .widget_link ul li a:hover, .deneb_footer .widget_wrapper .widget_link ul li a:focus {
-        color: #0779e4; }
+        color: #1c27af; }
   .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info {
     max-width: 250px;
     display: flex;
@@ -1929,7 +1935,7 @@ body p {
     margin-bottom: 20px; }
     .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
       font-size: 12px;
-      color: #0779e4;
+      color: #1c27af;
       margin-right: 10px; }
     .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
       color: #7a808d; }
@@ -1943,6 +1949,6 @@ body p {
     .deneb_footer .copyright_area .copyright_text p {
       color: #011a3e; }
       .deneb_footer .copyright_area .copyright_text p span {
-        color: #0779e4; }
+        color: #1c27af; }
 
 /*# sourceMappingURL=style.css.map */

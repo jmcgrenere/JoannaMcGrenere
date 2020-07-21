@@ -26,12 +26,21 @@
 	p {
 		margin: 0px;
 	}
+	.mail-align{
+		margin-left:22px;
+		color: black;
+		max-width: 270px;
+	}
 	.jm-calendar {
 		margin-top: 32px;
-		min-width: 200px;
+		min-width: 280px;
 		&:hover{
 			box-shadow: 2.5px 4.33px 15px 0px rgb(194, 210, 245);;
 		}
+	}
+
+	.directions{
+		color: #80a2f1;
 	}
 }
 
@@ -69,7 +78,7 @@
 			.deneb_img_box{
 				position: relative;
 				float: right;
-				margin-right: 18px;
+				margin-right: -43px;
 			}
 		}
 		.slick-dots{
