@@ -442,7 +442,7 @@ input.form_control {
   max-width: 270px; }
 .jm-banner .jm-calendar {
   margin-top: 32px;
-  min-width: 280px; }
+  min-width: 225px; }
   .jm-banner .jm-calendar:hover {
     box-shadow: 2.5px 4.33px 15px 0px #c2d2f5; }
 .jm-banner .directions {
@@ -450,7 +450,7 @@ input.form_control {
 
 .deneb_banner {
   position: relative;
-  padding-top: 110px;
+  padding-top: 120px;
   padding-bottom: 10px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .deneb_banner .hero_slider .signle_slider .banner_content {
@@ -474,7 +474,7 @@ input.form_control {
   .deneb_banner .hero_slider .signle_slider .deneb_img_box {
     position: relative;
     float: right;
-    margin-right: -43px; }
+    margin-right: 0px; }
   .deneb_banner .hero_slider .slick-dots {
     display: none;
     bottom: -50px; }
@@ -709,6 +709,18 @@ input.form_control {
   .service_v1 .section_title h2:after {
     left: 120px; }
 
+#jm-bullist ul {
+  line-height: 30px;
+  padding-left: 25px; }
+  #jm-bullist ul li {
+    list-style: disc;
+    font-size: 16px;
+    color: black; }
+
+.deneb_about .deneb_content_box .jm-research-title {
+  top: -10px !important;
+  margin-bottom: 15px !important; }
+
 .deneb_about {
   overflow: hidden; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -718,7 +730,7 @@ input.form_control {
     .deneb_about .deneb_img_box {
       margin-bottom: 60px; } }
   .deneb_about .deneb_content_box {
-    margin-left: 20px; }
+    margin-left: 24px; }
     .deneb_about .deneb_content_box h2 {
       margin-bottom: 40px; }
       @media (max-width: 767px) {
@@ -727,21 +739,11 @@ input.form_control {
     .deneb_about .deneb_content_box p {
       padding-bottom: 20px; }
     .deneb_about .deneb_content_box .deneb_btn {
-      margin-top: 20px;
-      min-width: 155px; }
+      margin-top: 5px;
+      min-width: 225px; }
 
 .deneb_about .deneb_content_box h2 {
   position: relative; }
-  .deneb_about .deneb_content_box h2:after {
-    position: absolute;
-    content: '';
-    left: -10px;
-    top: -20px;
-    background: url(../images/shape/title.png) no-repeat;
-    display: inline-block;
-    width: 96px;
-    height: 67px;
-    z-index: -1; }
 
 .about_v1 {
   overflow: hidden;
@@ -759,9 +761,6 @@ input.form_control {
     z-index: -1; }
   .about_v1 .deneb_img_box {
     max-width: 470px; }
-    .about_v1 .deneb_img_box img {
-      position: relative;
-      z-index: 9999; }
 
 .about_v2 {
   padding-top: 90px;

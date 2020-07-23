@@ -1,4 +1,24 @@
 // Start deneb_about
+#jm-bullist {
+	ul {
+		line-height: 30px;
+		padding-left: 25px;
+		li {
+			list-style: disc;
+			font-size: 16px;
+			color: black;
+		}
+	}
+}
+
+.deneb_about{
+	.deneb_content_box{
+		.jm-research-title{
+			top: -10px !important;
+			margin-bottom: 15px !important;
+		}
+	}
+}
 .deneb_about{
 	overflow: hidden;
 	.deneb_img_box{
@@ -10,7 +30,7 @@
 		}
 	}
 	.deneb_content_box{
-		margin-left: 20px;
+		margin-left: 24px;
 		h2{
 			margin-bottom: 40px;
 			@media #{$xs}{
@@ -21,8 +41,8 @@
 			padding-bottom: 20px;
 		}
 		.deneb_btn{
-			margin-top: 20px;
-			min-width: 155px;
+			margin-top: 5px;
+			min-width: 225px;
 		}
 	}
 }
@@ -30,17 +50,6 @@
 	.deneb_content_box{
 		h2{
 			position: relative;
-			&:after{
-			    position: absolute;
-			    content: '';
-			    left: -10px;
-			    top: -20px;
-			    background: url(../images/shape/title.png) no-repeat;
-			    display: inline-block;
-			    width: 96px;
-			    height: 67px;
-			    z-index: -1;
-			}
 		}
 	}
 }
@@ -62,20 +71,7 @@
 	}
 	.deneb_img_box{
 		max-width: 470px;
-		img{
-			position: relative;
-			z-index: 9999;
-		}
-		// &:after{
-		// 	position: absolute;
-		// 	content: '';
-		// 	left: 0;
-		// 	bottom: 0;
-		// 	background: url(../images/shape/ab.png) no-repeat;
-		// 	background-position: bottom left;
-		// 	width: 100%;
-		// 	height: 100%;
-		// }
+
 	}
 }
 // about_v2
@@ -163,6 +159,7 @@
 		}
 	}
 }
+
 .deneb_skill{
 	.section_title{
 		h2{

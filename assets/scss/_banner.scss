@@ -33,7 +33,7 @@
 	}
 	.jm-calendar {
 		margin-top: 32px;
-		min-width: 280px;
+		min-width: 225px;
 		&:hover{
 			box-shadow: 2.5px 4.33px 15px 0px rgb(194, 210, 245);;
 		}
@@ -78,7 +78,7 @@
 			.deneb_img_box{
 				position: relative;
 				float: right;
-				margin-right: -43px;
+				margin-right: 0px;
 			}
 		}
 		.slick-dots{

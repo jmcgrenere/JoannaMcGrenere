@@ -7,10 +7,7 @@
   url: /portfolios
 - text: Biography
   url: /blog
-  submenu:
-  - text: Blog Details
-    url: /wordpress-hosting
-  - text: 404
-    url: /404
+- text: Directions
+  url: /directions
 
  
