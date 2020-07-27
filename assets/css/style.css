@@ -451,7 +451,7 @@ input.form_control {
 .deneb_banner {
   position: relative;
   padding-top: 120px;
-  padding-bottom: 10px; }
+  margin-bottom: 60px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .deneb_banner .hero_slider .signle_slider .banner_content {
       margin-bottom: 60px; } }
