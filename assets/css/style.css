@@ -26,6 +26,20 @@ CSS INDEX
 12. Footer css
 -----------------------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500,700&display=swap");
+.title-mb {
+  margin-bottom: 25px; }
+
+.subtitle-mb {
+  margin-bottom: 10px; }
+
+ul.list-item-spacing {
+  padding-left: 30px; }
+  ul.list-item-spacing li {
+    line-height: 30px;
+    list-style: disc;
+    font-size: 16px;
+    color: black; }
+
 * {
   margin: 0;
   padding: 0;
@@ -446,7 +460,7 @@ input.form_control {
   .jm-banner .jm-calendar:hover {
     box-shadow: 2.5px 4.33px 15px 0px #c2d2f5; }
 .jm-banner .directions {
-  color: #80a2f1; }
+  color: #007bff; }
 
 .deneb_banner {
   position: relative;
@@ -1949,5 +1963,11 @@ body p {
       color: #011a3e; }
       .deneb_footer .copyright_area .copyright_text p span {
         color: #1c27af; }
+
+.deneb_achivement .deneb_img_box img {
+  float: right;
+  width: 85%;
+  height: auto;
+  margin-top: 70px; }
 
 /*# sourceMappingURL=style.css.map */
