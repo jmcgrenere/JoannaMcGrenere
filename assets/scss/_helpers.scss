@@ -18,14 +18,16 @@
   }
 }
 
-.deneb_pricing{
-  .section_title{
-    .bio{
-      font-size: 15px;
-      margin-bottom: 32px;
-    }
-  }
+.bio{
+  font-size: 15px;
+  margin-bottom: 32px;
 }
+
+.dir{
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
 
 ul.list-item-spacing {
   padding-left:30px;
@@ -34,5 +36,11 @@ ul.list-item-spacing {
     list-style: disc;
     font-size: 16px;
     color: black;
+  }
+}
+
+a {
+  &:hover {
+    box-shadow: 2.5px 4.33px 15px 0px #c2d2f5 !important;
   }
 }

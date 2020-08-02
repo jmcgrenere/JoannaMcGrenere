@@ -41,9 +41,13 @@ CSS INDEX
 .deneb_project .deneb_img_box {
   margin-top: 10px; }
 
-.deneb_pricing .section_title .bio {
+.bio {
   font-size: 15px;
   margin-bottom: 32px; }
+
+.dir {
+  margin-bottom: 25px;
+  font-size: 15px; }
 
 ul.list-item-spacing {
   padding-left: 30px; }
@@ -52,6 +56,9 @@ ul.list-item-spacing {
     list-style: disc;
     font-size: 16px;
     color: black; }
+
+a:hover {
+  box-shadow: 2.5px 4.33px 15px 0px #c2d2f5 !important; }
 
 * {
   margin: 0;
@@ -152,7 +159,7 @@ body {
 
 .deneb_btn {
   display: inline-block;
-  min-width: 127px;
+  min-width: 225px !important;
   height: 45px;
   color: #fff;
   font: 500 15px "Poppins", sans-serif;
@@ -1150,8 +1157,7 @@ body p {
     left: 40px; }
 
 .pricing_v1 {
-  position: relative;
-  padding-bottom: 120px; }
+  position: relative; }
 
 .deneb_testimonial {
   overflow: hidden;
