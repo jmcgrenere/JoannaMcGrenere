@@ -1,5 +1,5 @@
 .title-mb {
-  margin-bottom: 25px;
+  margin-bottom: 25px !important;
 }
 .subtitle-mb {
   margin-bottom: 10px;
@@ -7,6 +7,24 @@
 
 .para_space {
   margin-top: 25px;
+}
+.padding-btm0 {
+  padding-bottom: 0px !important;
+}
+
+.deneb_project {
+  .deneb_img_box{
+    margin-top: 10px;
+  }
+}
+
+.deneb_pricing{
+  .section_title{
+    .bio{
+      font-size: 15px;
+      margin-bottom: 32px;
+    }
+  }
 }
 
 ul.list-item-spacing {

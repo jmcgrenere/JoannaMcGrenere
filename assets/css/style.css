@@ -27,13 +27,23 @@ CSS INDEX
 -----------------------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500,700&display=swap");
 .title-mb {
-  margin-bottom: 25px; }
+  margin-bottom: 25px !important; }
 
 .subtitle-mb {
   margin-bottom: 10px; }
 
 .para_space {
   margin-top: 25px; }
+
+.padding-btm0 {
+  padding-bottom: 0px !important; }
+
+.deneb_project .deneb_img_box {
+  margin-top: 10px; }
+
+.deneb_pricing .section_title .bio {
+  font-size: 15px;
+  margin-bottom: 32px; }
 
 ul.list-item-spacing {
   padding-left: 30px; }
@@ -124,7 +134,7 @@ body {
   background-repeat: no-repeat; }
 
 .section_padding {
-  padding: 100px 0; }
+  padding: 35px 0; }
 
 .section-ptb {
   padding-top: 120px;
@@ -139,15 +149,6 @@ body {
     @media (max-width: 767px) {
       .section_title h2 {
         font-size: 32px; } }
-    .section_title h2:after {
-      position: absolute;
-      content: '';
-      top: -20px;
-      background: url(../images/shape/title.png) no-repeat;
-      display: inline-block;
-      width: 96px;
-      height: 67px;
-      z-index: -1; }
 
 .deneb_btn {
   display: inline-block;
@@ -178,7 +179,8 @@ body {
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     margin-right: 10px;
-    color: #1c27af; }
+    color: #1c27af;
+    margin-top: 25px; }
   .link_btn:hover, .link_btn:focus {
     color: #1c27af; }
 
@@ -756,7 +758,7 @@ input.form_control {
     .deneb_about .deneb_content_box p {
       padding-bottom: 20px; }
     .deneb_about .deneb_content_box .deneb_btn {
-      margin-top: 5px;
+      margin-top: 32px;
       min-width: 225px; }
 
 .deneb_about .deneb_content_box h2 {
@@ -1099,8 +1101,7 @@ body p {
 
 .project_v1 {
   overflow: hidden;
-  position: relative;
-  padding-bottom: 120px; }
+  position: relative; }
 
 .project_v2 .grid_item {
   margin-bottom: 30px; }
@@ -1142,8 +1143,6 @@ body p {
       .deneb_pricing .pircing_box .price h2 span {
         font-size: 20px;
         color: #1c27af; }
-  .deneb_pricing .pircing_box .button_box .deneb_btn {
-    min-width: 158px; }
 
 .deneb_pricing .section_title h2 {
   position: relative; }
