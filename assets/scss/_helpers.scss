@@ -29,6 +29,8 @@
 }
 
 
+
+
 ul.list-item-spacing {
   padding-left:30px;
   li {
@@ -39,8 +41,21 @@ ul.list-item-spacing {
   }
 }
 
-a {
+a.deneb_btn{
   &:hover {
     box-shadow: 2.5px 4.33px 15px 0px #c2d2f5 !important;
   }
 }
+
+figure {
+  margin: 10px 0 0 0;
+  padding: 0px;
+}
+
+body{
+  section {
+    margin-bottom: 65px;
+  }
+
+}
+
