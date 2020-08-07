@@ -89,7 +89,7 @@ body{
 	background-repeat: no-repeat;
 }
 .section_padding{
-	padding: 100px 0;
+	padding: 35px 0;
 }
 .section-ptb {
   padding-top: 120px;
@@ -105,21 +105,11 @@ body{
 		}
 		margin-bottom: 14px;
 		position: relative;
-		&:after{
-		    position: absolute;
-		    content: '';
-		    top: -20px;
-		    background: url(../images/shape/title.png) no-repeat;
-		    display: inline-block;
-		    width: 96px;
-		    height: 67px;
-		    z-index: -1;
-		}
 	}
 }
 .deneb_btn{
 	display: inline-block;
-	min-width: 127px;
+	min-width: 225px !important;
 	height: 45px;
 	color: $white;
 	font: 500 15px $font1;
@@ -144,6 +134,7 @@ body{
 		font-family: "Font Awesome 5 Free";
 		margin-right: 10px;
 		color: $theme_color;
+		margin-top: 25px;
 	}
 	&:hover,&:focus{
 		color: $theme_color;

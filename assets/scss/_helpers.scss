@@ -1,0 +1,61 @@
+.title-mb {
+  margin-bottom: 25px !important;
+}
+.subtitle-mb {
+  margin-bottom: 10px;
+}
+
+.para_space {
+  margin-top: 25px;
+}
+.padding-btm0 {
+  padding-bottom: 0px !important;
+}
+
+.deneb_project {
+  .deneb_img_box{
+    margin-top: 10px;
+  }
+}
+
+.bio{
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+
+.dir{
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+
+
+
+ul.list-item-spacing {
+  padding-left:30px;
+  li {
+    line-height: 30px;
+    list-style: disc;
+    font-size: 16px;
+    color: black;
+  }
+}
+
+a.deneb_btn{
+  &:hover {
+    box-shadow: 2.5px 4.33px 15px 0px #c2d2f5 !important;
+  }
+}
+
+figure {
+  margin: 10px 0 0 0;
+  padding: 0px;
+}
+
+body{
+  section {
+    margin-bottom: 65px;
+  }
+
+}
+

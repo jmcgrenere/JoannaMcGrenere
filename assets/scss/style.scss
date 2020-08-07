@@ -29,6 +29,8 @@ CSS INDEX
 
 // Variables
 @import 'variables';
+// Helpers
+@import "helpers";
 // Mixin
 @import 'mixin';
 // Common
@@ -55,3 +57,5 @@ CSS INDEX
 @import 'features';
 // Footer
 @import 'footer';
+// Achievement block
+@import "achievements";
