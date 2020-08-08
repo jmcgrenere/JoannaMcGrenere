@@ -1980,11 +1980,26 @@ body p {
   width: 85%;
   height: auto;
   margin-top: 80px; }
-
-.marginbot {
+.deneb_achivement .marginbot {
   margin-bottom: 20px; }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .deneb_achivement .deneb_img_box {
+    overflow-y: hidden;
+    max-height: 512px; }
+
+  .about_v1 .deneb_img_box {
+    max-width: 100%; }
+
+  #jm-research-vid {
+    width: 100%;
+    height: auto;
+    min-height: 400px !important; } }
+@media screen and (max-width: 1439px) {
+  .deneb_achivement .deneb_content_box {
+    padding-right: 15px;
+    padding-left: 15px; } }
+@media screen and (max-width: 991px) {
   .containerMain, .containerRes, .serviceContainer, .directionContainer {
     display: flex;
     flex-flow: column-reverse;
@@ -2033,5 +2048,15 @@ body p {
 @media screen and (min-width: 416px) and (max-width: 565px) {
   .jm-banner {
     transform: translateX(9%); } }
+@media screen and (min-width: 376px) and (max-width: 416px) {
+  #jm-research-vid {
+    width: 100%;
+    height: auto;
+    min-height: 220px !important; } }
+@media screen and (min-width: 319px) and (max-width: 376px) {
+  #jm-research-vid {
+    width: 100%;
+    height: auto;
+    min-height: 190px !important; } }
 
 /*# sourceMappingURL=style.css.map */
