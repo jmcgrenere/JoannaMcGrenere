@@ -765,15 +765,16 @@ input.form_control {
     margin-left: 24px; }
     .deneb_about .deneb_content_box h2 {
       margin-bottom: 40px; }
-      @media (max-width: 767px) {
-        .deneb_about .deneb_content_box h2 {
-          font-size: 28px; } }
     .deneb_about .deneb_content_box p {
       padding-bottom: 20px; }
     .deneb_about .deneb_content_box .deneb_btn {
       margin-top: 32px;
       min-width: 225px; }
 
+@media screen and (max-width: 530px) {
+  .containerRes {
+    display: flex;
+    flex-flow: column-reverse; } }
 .deneb_about .deneb_content_box h2 {
   position: relative; }
 
@@ -1982,5 +1983,55 @@ body p {
 
 .marginbot {
   margin-bottom: 20px; }
+
+@media screen and (max-width: 768px) {
+  .containerMain, .containerRes, .serviceContainer, .directionContainer {
+    display: flex;
+    flex-flow: column-reverse;
+    margin: 0px !important; }
+
+  body section {
+    margin-bottom: 0px; }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 0px; }
+
+  .deneb_about .deneb_content_box {
+    margin-bottom: 60px; }
+
+  .deneb_achivement {
+    margin-bottom: 60px; }
+    .deneb_achivement .deneb_img_box img {
+      margin-top: 60px; }
+
+  .deneb_project {
+    margin-bottom: 60px; }
+    .deneb_project .deneb_img_box {
+      margin-top: 60px; }
+
+  .deneb_pricing.pricing_v1 {
+    margin-bottom: 60px; }
+
+  .mapouter {
+    margin: 60px 0;
+    width: 100%; }
+    .mapouter #gmap_canvas {
+      width: 100%; }
+
+  #jm-research-vid {
+    width: 100%;
+    height: auto;
+    min-height: 282px; }
+
+  .deneb_achivement .deneb_img_box img {
+    width: 100%;
+    height: auto;
+    padding: 0 10px; }
+
+  .deneb_about .deneb_content_box {
+    margin-left: 0px; } }
+@media screen and (min-width: 416px) and (max-width: 565px) {
+  .jm-banner {
+    transform: translateX(9%); } }
 
 /*# sourceMappingURL=style.css.map */

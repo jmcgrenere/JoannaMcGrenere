@@ -33,9 +33,6 @@
 		margin-left: 24px;
 		h2{
 			margin-bottom: 40px;
-			@media #{$xs}{
-				font-size: 28px;
-			}
 		}
 		p{
 			padding-bottom: 20px;
@@ -45,6 +42,10 @@
 			min-width: 225px;
 		}
 	}
+}
+
+@media screen and (max-width: 530px) {
+	.containerRes { display: flex; flex-flow: column-reverse; }
 }
 .deneb_about{
 	.deneb_content_box{
