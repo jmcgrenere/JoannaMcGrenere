@@ -5,6 +5,39 @@
 //    margin: 0px !important;
 //  }
 //}
+@media screen and (min-width: 1023px) and (max-width: 1199px) {
+  .header_area {
+    .site_menu{
+      .primary_menu {
+        .main_menu {
+          ul {
+            li{
+              position: relative;
+              display: inline-block;
+              margin-left: 66px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .about_v1 {
+    .deneb_img_box {
+      max-width: unset;
+      #jm-research-vid{
+        width: 100%;
+      }
+    }
+  }
+  .mapouter{
+    .gmap_canvas {
+      #gmap_canvas{
+        width: 100%;
+      }
+    }
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .deneb_achivement{
     .deneb_img_box {
@@ -29,6 +62,15 @@
     .deneb_content_box {
       padding-right: 15px;
       padding-left: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .deneb_pricing {
+    .content {
+      padding-left: 15px;
+      paddig-right: 15px;
     }
   }
 }

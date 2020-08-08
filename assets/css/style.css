@@ -67,6 +67,9 @@ figure {
 body section {
   margin-bottom: 65px; }
 
+.mapouter .gmap_canvas #gmap_canvas {
+  float: left; }
+
 * {
   margin: 0;
   padding: 0;
@@ -1983,6 +1986,19 @@ body p {
 .deneb_achivement .marginbot {
   margin-bottom: 20px; }
 
+@media screen and (min-width: 1023px) and (max-width: 1199px) {
+  .header_area .site_menu .primary_menu .main_menu ul li {
+    position: relative;
+    display: inline-block;
+    margin-left: 66px; }
+
+  .about_v1 .deneb_img_box {
+    max-width: unset; }
+    .about_v1 .deneb_img_box #jm-research-vid {
+      width: 100%; }
+
+  .mapouter .gmap_canvas #gmap_canvas {
+    width: 100%; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .deneb_achivement .deneb_img_box {
     overflow-y: hidden;
@@ -1999,6 +2015,10 @@ body p {
   .deneb_achivement .deneb_content_box {
     padding-right: 15px;
     padding-left: 15px; } }
+@media screen and (max-width: 834px) {
+  .deneb_pricing .content {
+    padding-left: 15px;
+    paddig-right: 15px; } }
 @media screen and (max-width: 991px) {
   .containerMain, .containerRes, .serviceContainer, .directionContainer {
     display: flex;
