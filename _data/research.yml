@@ -1,8 +1,11 @@
-title: "Research"
+title: Research
 para_1: "My research is in Human-Computer Interaction, with a particular focus on the following areas:"
-list_1: "Personalized User Interfaces"
-list_2:  "Universal Usability"
-list_3:  "Interactive Technologies for Older Adults"
-list_4:  "Computer Supported Cooperative Work"
-list_5:  "Qualitative and Quantitative Methodologies"
-para_2: "Publications can be found on my group's website."
+areas:
+  - area: Personalized User Interfaces
+  - area:  Universal Usability
+  - area:  Interactive Technologies for Older Adults
+  - area:  Computer Supported Cooperative Work
+  - area:  Qualitative and Quantitative Methodologies
+para_2: Publications can be found on my group's website.
+button_name: eDapt Website
+button_url: https://www.cs.ubc.ca/~joanna/schedule.html

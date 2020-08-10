@@ -13,17 +13,15 @@
 					<p>{{site.data.research.para_1}}</p>
 					<div id="jm-bullist">
 						<ul>
-							<li>{{site.data.research.list_1}}</li>
-							<li>{{site.data.research.list_2}}</li>
-							<li>{{site.data.research.list_3}}</li>
-							<li>{{site.data.research.list_4}}</li>
-							<li>{{site.data.research.list_5}}</li>
+							{% for item in site.data.research.areas %}
+							<li>{{item.area}}</li>
+							{% endfor %}
 						</ul>
 					</div>
 					<p class="para_space padding-btm0">{{site.data.research.para_2}}</p>
 
 
-					<a href="/about" class="deneb_btn">eDAPT Website</a>
+					<a href="{{site.data.research.button_url}}" class="deneb_btn">{{site.data.research.button_name}}</a>
 				</div>
 			</div>
 		</div>
