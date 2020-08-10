@@ -1,5 +1,5 @@
 <!-- Start deneb_about section -->
-<section class="deneb_about {% if include.section_class %} {{include.section_class}} {% else %} about_v1 {% endif %}">
+<section class="deneb_about">
 	<div class="container">
 		<div class="row containerRes">
 			<div class="col-lg-7">
@@ -9,18 +9,18 @@
 			</div>
 			<div class="col-lg-5">
 				<div class="deneb_content_box wow fadeInRight">
-					<h2 class="jm-research-title">Research</h2>
-					<p>My research is in Human-Computer Interaction, with a particular focus on the following areas:</p>
+					<h2 class="jm-research-title">{{site.data.research.title}}</h2>
+					<p>{{site.data.research.para_1}}</p>
 					<div id="jm-bullist">
 						<ul>
-							<li>Personalized User Interfaces </li>
-							<li>Universal Usability</li>
-							<li>Interactive Technologies for Older Adults</li>
-							<li>Computer Supported Cooperative Work</li>
-							<li>Qualitative and Quantitative Methodologies</li>
+							<li>{{site.data.research.list_1}}</li>
+							<li>{{site.data.research.list_2}}</li>
+							<li>{{site.data.research.list_3}}</li>
+							<li>{{site.data.research.list_4}}</li>
+							<li>{{site.data.research.list_5}}</li>
 						</ul>
 					</div>
-					<p class="para_space padding-btm0">Publications can be found on my group's website.</p>
+					<p class="para_space padding-btm0">{{site.data.research.para_2}}</p>
 
 
 					<a href="/about" class="deneb_btn">eDAPT Website</a>

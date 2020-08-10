@@ -1,0 +1,16 @@
+title: Teaching
+para_1: >
+  I typically teach courses on Human-Computer Interaction (HCI), at both the undergrad and graduate level, as well as first year introduction to computation and programming.
+subtitles:
+  - subtitle: "This Year (2020/21):"
+    courses:
+      - course: <a href = "https://sites.google.com/site/ubccpsc110/">CS 110</a>- first year undergrad course on Computation, Programs, and Programming
+      - course: <a href = "https://www.students.cs.ubc.ca/~cs-444/index.html">CS 444</a>- fourth year undergrad course in Advanced Methods in HCI
+
+  - subtitle: "Last Year (2019/2020):"
+    courses:
+      - course: <a href = "https://blogs.ubc.ca/cpsc544/home/">CS 544</a>- graduate course in HCI on the Fundamentals of Designing Interactive Computational Technology for People (DFP)
+      - course: <a href = "https://www.students.cs.ubc.ca/~cs-444/index.html">CS 444</a>- fourth year undergrad course in Advanced Methods in HCI
+para_2: "Full details of my teaching can be found in my "
+cv_name: "CV"
+cv_path: "/assets/images/CV_McGrenere.pdf"
