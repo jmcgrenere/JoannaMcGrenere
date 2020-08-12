@@ -1,13 +1,13 @@
 #Please use the main menu items under the "text"
 - text: Research
-  url: /about
+  url: "#research"
 - text: Teaching
-  url: /services
+  url: "#teaching"
 - text: Service
-  url: /portfolios
+  url: "#services"
 - text: Biography
-  url: /blog
+  url: "#biography"
 - text: Directions
-  url: /directions
+  url: "#directions"
 
  
