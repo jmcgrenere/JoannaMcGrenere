@@ -1,0 +1,32 @@
+<!-- Start service section -->
+<section class="deneb_project project_v1">
+	<div class="shape_v3">
+		<img src="/assets/images/shape/shape_10.png" class="shape_10" alt="">
+	</div>
+	<div class="container">
+		<div class="row serviceContainer">
+			<div class="col-lg-7">
+				<div class="deneb_img_box wow fadeInLeft">
+					<img src="/assets/images/award.png" class="img-fluid" alt="teaching image"/><figure><figcaption>{{site.data.service.caption}}</figcaption></figure>
+
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<div class="deneb_content_box wow fadeInRight">
+					<h2 class="jm-research-title title-mb" id="services">{{site.data.service.title}}</h2>
+					{% for item in site.data.service.content %}
+					<h5 class="subtitle-mb">{{item.subtitle}}</h5>
+					<div class="jm-bullist2">
+						<ul>
+							<li>{{item.body}}</li>
+						</ul>
+					</div>
+					{% endfor %}
+					<a href="{{site.data.service.hyper_path}}" class="link_btn">{{site.data.service.hyper_name}}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End deneb_project section -->

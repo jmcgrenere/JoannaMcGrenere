@@ -139,5 +139,12 @@ if($("#search-input").length >0){
       json: '/search.json'
     });
   }
+
+    $(".jm-site-navigation").click(function() {
+        var targetID = $(this).data("target")
+        $('html, body').animate({
+            scrollTop: $(targetID).offset().top - 80
+        }, 1000);
+    });
     
 })(window.jQuery);   

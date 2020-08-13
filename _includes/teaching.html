@@ -1,0 +1,33 @@
+<!-- Start teaching section -->
+<section class="deneb_achivement">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="deneb_content_box wow fadeInRight" id="teaching">
+					<h2 class="jm-research-title title-mb">{{site.data.teaching.title}}</h2>
+					<p class="marginbot">{{site.data.teaching.para_1}}
+					</p>
+					{% for item in site.data.teaching.subtitles %}
+					<h5 class="subtitle-mb">{{item.subtitle}}</h5>
+					<div class="jm-bullist2">
+						<ul class="list-item-spacing">
+							{% for entry in item.courses %}
+							<li>{{entry.course}}</li> {% endfor %}
+						</ul>
+					</div>
+					<br>
+					{% endfor %}
+
+					<p>{{site.data.teaching.para_2}}<a href="{{site.data.teaching.cv_path}}">{{site.data.teaching.cv_name}}</a>.</p>
+
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="deneb_img_box wow fadeInLeft">
+					<img src="/assets/images/ubctest.jpg" class="img-fluid" alt="teaching image"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End deneb_achivement section -->

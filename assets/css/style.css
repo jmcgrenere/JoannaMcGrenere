@@ -67,6 +67,9 @@ figure {
 body section {
   margin-bottom: 65px; }
 
+.mapouter .gmap_canvas #gmap_canvas {
+  float: left; }
+
 * {
   margin: 0;
   padding: 0;
@@ -563,184 +566,6 @@ input.form_control {
   left: 40px;
   bottom: 60px; }
 
-.jm-edapt-container {
-  margin: auto; }
-  .jm-edapt-container .jm-edapt-btn {
-    position: relative;
-    bottom: 34px;
-    width: 200px; }
-    .jm-edapt-container .jm-edapt-btn:hover {
-      box-shadow: 2.5px 4.33px 15px 0px #c2d2f5; }
-
-.deneb_service {
-  position: relative; }
-  .deneb_service .grid_item {
-    max-width: 370px;
-    margin: auto;
-    padding: 50px 45px 30px;
-    text-align: center;
-    border-radius: 8px;
-    -webkit-transition: all 0.5s ease-out 0s;
-    -moz-transition: all 0.5s ease-out 0s;
-    -ms-transition: all 0.5s ease-out 0s;
-    -o-transition: all 0.5s ease-out 0s;
-    transition: all 0.5s ease-out 0s;
-    border: 2px dashed #fff; }
-    .deneb_service .grid_item .icon {
-      margin-bottom: 30px; }
-    .deneb_service .grid_item .info h4 {
-      margin-bottom: 15px;
-      font-weight: 600; }
-      @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .deneb_service .grid_item .info h4 {
-          font-size: 18px; } }
-      .deneb_service .grid_item .info h4 a {
-        color: #011a3e;
-        font-weight: 600; }
-    .deneb_service .grid_item .info p {
-      margin-bottom: 20px; }
-    .deneb_service .grid_item .info .link_btn {
-      font-weight: 500;
-      color: #011a3e;
-      text-transform: uppercase; }
-
-.service_v1 {
-  padding-top: 125px;
-  padding-bottom: 90px; }
-
-.service_wrapper .service_tab_wrap .service_tab_nav {
-  margin-bottom: 80px; }
-  .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs {
-    justify-content: center;
-    border: none; }
-    .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item {
-      margin-left: 12px;
-      margin-right: 12px; }
-      @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item {
-          margin-bottom: 20px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item {
-          margin-bottom: 20px; } }
-      @media (max-width: 767px) {
-        .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item {
-          margin-bottom: 20px; } }
-      .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item .nav-link {
-        border: none;
-        text-align: center;
-        font-size: 18px;
-        font-weight: 600;
-        color: #011a3e;
-        width: 170px;
-        height: 170px;
-        background: #fff;
-        box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
-        border-radius: 8px;
-        padding: 20px 25px;
-        border: 3px dashed #fff;
-        -webkit-transition: all 0.5s ease-out 0s;
-        -moz-transition: all 0.5s ease-out 0s;
-        -ms-transition: all 0.5s ease-out 0s;
-        -o-transition: all 0.5s ease-out 0s;
-        transition: all 0.5s ease-out 0s; }
-        .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item .nav-link img {
-          margin-bottom: 10px; }
-        .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item .nav-link span {
-          display: block; }
-        .service_wrapper .service_tab_wrap .service_tab_nav .nav-tabs .nav-item .nav-link.active {
-          border-color: #1c27af;
-          box-shadow: 5px 8.66px 27px 0px rgba(0, 0, 0, 0.15); }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service_wrapper .service_tab_wrap .tab-content .deneb_content_box {
-    margin-bottom: 60px; } }
-.service_wrapper .service_tab_wrap .tab-content .deneb_content_box h2 {
-  position: relative;
-  margin-bottom: 30px; }
-.service_wrapper .service_tab_wrap .tab-content .deneb_content_box p {
-  margin-bottom: 20px; }
-.service_wrapper .service_tab_wrap .tab-content .deneb_img_box {
-  position: relative;
-  z-index: 1; }
-  .service_wrapper .service_tab_wrap .tab-content .deneb_img_box img {
-    border-radius: 8px;
-    max-width: 540px;
-    box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.3); }
-    @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .service_wrapper .service_tab_wrap .tab-content .deneb_img_box img {
-        width: 100%; } }
-    @media (max-width: 767px) {
-      .service_wrapper .service_tab_wrap .tab-content .deneb_img_box img {
-        width: 100%; } }
-  .service_wrapper .service_tab_wrap .tab-content .deneb_img_box:after {
-    position: absolute;
-    right: 0;
-    top: -30px;
-    content: '';
-    width: 94%;
-    height: 397px;
-    z-index: -1;
-    border-radius: 8px;
-    background-image: -moz-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
-    background-image: -webkit-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
-    background-image: -ms-linear-gradient(0deg, #ffbd27 0%, #feb000 100%); }
-    @media (max-width: 767px) {
-      .service_wrapper .service_tab_wrap .tab-content .deneb_img_box:after {
-        display: none; } }
-
-.service_wrapper .deneb_content_box h2 {
-  position: relative; }
-  .service_wrapper .deneb_content_box h2:after {
-    position: absolute;
-    content: '';
-    left: -30px;
-    top: -20px;
-    background: url(../images/shape/title.png) no-repeat;
-    display: inline-block;
-    width: 96px;
-    height: 67px;
-    z-index: -1; }
-
-.service_feature .section_title h2 {
-  position: relative; }
-  .service_feature .section_title h2:after {
-    left: 70px; }
-
-.service_feature {
-  padding-bottom: 100px; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .service_feature .feature_wrapper .single_feature .deneb_img_box {
-      margin-bottom: 60px; } }
-  .service_feature .feature_wrapper .single_feature .deneb_content_box {
-    max-width: 548px; }
-    .service_feature .feature_wrapper .single_feature .deneb_content_box .icon {
-      display: inline-block;
-      width: 100px;
-      height: 100px;
-      line-height: 100px;
-      text-align: center;
-      border-radius: 50%;
-      background-color: #fff;
-      box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
-      margin-bottom: 30px; }
-    .service_feature .feature_wrapper .single_feature .deneb_content_box h3 {
-      position: relative;
-      font-size: 30px;
-      font-weight: bold;
-      margin-bottom: 10px; }
-  .service_feature .feature_wrapper .single_feature:nth-child(odd) .deneb_content_box {
-    text-align: right; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .service_feature .feature_wrapper .single_feature:nth-child(odd) .deneb_content_box {
-        margin-bottom: 60px; } }
-
-.service_page .deneb_pricing {
-  padding-bottom: 105px; }
-
-.service_v1 .section_title h2 {
-  position: relative; }
-  .service_v1 .section_title h2:after {
-    left: 120px; }
-
 #jm-bullist ul {
   line-height: 30px;
   padding-left: 25px; }
@@ -765,15 +590,16 @@ input.form_control {
     margin-left: 24px; }
     .deneb_about .deneb_content_box h2 {
       margin-bottom: 40px; }
-      @media (max-width: 767px) {
-        .deneb_about .deneb_content_box h2 {
-          font-size: 28px; } }
     .deneb_about .deneb_content_box p {
       padding-bottom: 20px; }
     .deneb_about .deneb_content_box .deneb_btn {
       margin-top: 32px;
       min-width: 225px; }
 
+@media screen and (max-width: 530px) {
+  .containerRes {
+    display: flex;
+    flex-flow: column-reverse; } }
 .deneb_about .deneb_content_box h2 {
   position: relative; }
 
@@ -1277,305 +1103,6 @@ body p {
 .testimonial_v1 {
   position: relative; }
 
-.blog_v1 {
-  position: relative;
-  padding-bottom: 120px; }
-  .blog_v1:after {
-    position: absolute;
-    content: '';
-    right: 0;
-    top: 0px;
-    background: url(../images/shape/shape_14.png) no-repeat;
-    background-position: top right;
-    width: 100%;
-    height: 100%;
-    z-index: -1; }
-  .blog_v1 .grid_item {
-    background: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    -webkit-transition: all 0.5s ease-out 0s;
-    -moz-transition: all 0.5s ease-out 0s;
-    -ms-transition: all 0.5s ease-out 0s;
-    -o-transition: all 0.5s ease-out 0s;
-    transition: all 0.5s ease-out 0s; }
-    @media (max-width: 767px) {
-      .blog_v1 .grid_item {
-        margin-bottom: 60px; } }
-    .blog_v1 .grid_item:hover {
-      box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15); }
-    .blog_v1 .grid_item .deneb_info {
-      padding: 25px 30px 22px; }
-      .blog_v1 .grid_item .deneb_info .date {
-        color: #1c27af;
-        margin-bottom: 7px;
-        display: block; }
-      .blog_v1 .grid_item .deneb_info h3 {
-        font-size: 20px;
-        font-weight: 600;
-        padding-bottom: 10px; }
-        .blog_v1 .grid_item .deneb_info h3 a {
-          color: #011a3e; }
-      .blog_v1 .grid_item .deneb_info p {
-        margin-bottom: 6px; }
-      .blog_v1 .grid_item .deneb_info .link_btn {
-        color: #011a3e;
-        font-weight: 500;
-        text-transform: uppercase; }
-
-.deneb_blog .section_title h2 {
-  position: relative; }
-  .deneb_blog .section_title h2:after {
-    left: 90px; }
-
-@media (max-width: 767px) {
-  .blog_v2 .blog_wrap_content {
-    margin-bottom: 60px; } }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .blog_v2 .blog_wrap_content {
-    margin-bottom: 60px; } }
-.blog_v2 .blog_wrap_content .grid_item {
-  margin-bottom: 60px; }
-  .blog_v2 .blog_wrap_content .grid_item .deneb_img img {
-    border-radius: 8px; }
-  .blog_v2 .blog_wrap_content .grid_item .deneb_info {
-    padding-top: 30px; }
-    .blog_v2 .blog_wrap_content .grid_item .deneb_info .post_meta {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 10px; }
-      .blog_v2 .blog_wrap_content .grid_item .deneb_info .post_meta ul li {
-        display: inline-block;
-        margin-right: 25px; }
-        .blog_v2 .blog_wrap_content .grid_item .deneb_info .post_meta ul li i {
-          color: #ff8801;
-          margin-right: 10px; }
-        .blog_v2 .blog_wrap_content .grid_item .deneb_info .post_meta ul li a {
-          color: #a1a1a1; }
-      .blog_v2 .blog_wrap_content .grid_item .deneb_info .post_meta ul:nth-child(2) li {
-        margin-right: 0;
-        margin-left: 25px; }
-    .blog_v2 .blog_wrap_content .grid_item .deneb_info .title {
-      font-weight: bold;
-      margin-bottom: 10px; }
-      .blog_v2 .blog_wrap_content .grid_item .deneb_info .title a {
-        color: #011a3e; }
-    .blog_v2 .blog_wrap_content .grid_item .deneb_info p {
-      margin-bottom: 10px; }
-    .blog_v2 .blog_wrap_content .grid_item .deneb_info a.post_btn {
-      display: inline-block; }
-    .blog_v2 .blog_wrap_content .grid_item .deneb_info a.share {
-      float: right;
-      font-size: 15px;
-      color: #a1a1a1; }
-      .blog_v2 .blog_wrap_content .grid_item .deneb_info a.share i {
-        color: #ff8801;
-        margin-right: 10px; }
-
-@media (max-width: 767px) {
-  .deneb_single_blog .single_blog_wrapper {
-    margin-bottom: 40px; } }
-.deneb_single_blog .single_blog_wrapper .post_top_content .post_img {
-  margin-bottom: 25px; }
-.deneb_single_blog .single_blog_wrapper .post_top_content .post_meta {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px; }
-  .deneb_single_blog .single_blog_wrapper .post_top_content .post_meta ul li {
-    display: inline-block;
-    margin-right: 25px; }
-    .deneb_single_blog .single_blog_wrapper .post_top_content .post_meta ul li i {
-      color: #ff8801;
-      margin-right: 10px; }
-    .deneb_single_blog .single_blog_wrapper .post_top_content .post_meta ul li a {
-      color: #a1a1a1; }
-  .deneb_single_blog .single_blog_wrapper .post_top_content .post_meta ul:nth-child(2) li {
-    margin-right: 0;
-    margin-left: 25px; }
-.deneb_single_blog .single_blog_wrapper .post_content {
-  border-bottom: 1px solid #e1e1e1;
-  padding-bottom: 36px; }
-  .deneb_single_blog .single_blog_wrapper .post_content h3 {
-    font-weight: bold;
-    margin-bottom: 10px; }
-  .deneb_single_blog .single_blog_wrapper .post_content p {
-    margin-bottom: 10px; }
-  .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin: 0;
-    margin-bottom: 10px; }
-    .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .icon {
-      padding-right: 15px;
-      border-right: 3px solid #e1e1e1; }
-      .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .icon i {
-        font-size: 40px;
-        color: #1c27af; }
-    .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .info {
-      padding-left: 15px; }
-      .deneb_single_blog .single_blog_wrapper .post_content .deneb_blockquote .info h4 {
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 35px; }
-  .deneb_single_blog .single_blog_wrapper .post_content .innner_content h3 {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 25px; }
-  .deneb_single_blog .single_blog_wrapper .post_content .innner_content img {
-    border-radius: 8px; }
-.deneb_single_blog .single_blog_wrapper .post_share_tag {
-  padding-top: 15px;
-  margin-bottom: 38px; }
-  .deneb_single_blog .single_blog_wrapper .post_share_tag .tag ul li {
-    display: inline-block;
-    margin-right: 5px; }
-    .deneb_single_blog .single_blog_wrapper .post_share_tag .tag ul li a {
-      color: #a1a1a1; }
-  .deneb_single_blog .single_blog_wrapper .post_share_tag .share {
-    float: right; }
-    .deneb_single_blog .single_blog_wrapper .post_share_tag .share a {
-      color: #a1a1a1; }
-      .deneb_single_blog .single_blog_wrapper .post_share_tag .share a i {
-        margin-right: 10px;
-        color: #ff8801; }
-.deneb_single_blog .single_blog_wrapper .recent_post {
-  padding-bottom: 40px; }
-  .deneb_single_blog .single_blog_wrapper .recent_post h3 {
-    font-weight: bold;
-    margin-bottom: 25px;
-    font-size: 25px; }
-  @media (max-width: 767px) {
-    .deneb_single_blog .single_blog_wrapper .recent_post .grid_item .deneb_img img {
-      width: 100%; } }
-  .deneb_single_blog .single_blog_wrapper .recent_post .grid_item .deneb_info {
-    padding: 25px 24px 22px; }
-    .deneb_single_blog .single_blog_wrapper .recent_post .grid_item .deneb_info h3 {
-      font-size: 15px;
-      line-height: 21px; }
-.deneb_single_blog .single_blog_wrapper .comment_wrapper h3 {
-  font-weight: bold;
-  margin-bottom: 25px;
-  font-size: 25px; }
-.deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment {
-  margin-bottom: 30px;
-  display: flex;
-  flex-wrap: wrap; }
-  .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment:nth-child(odd) {
-    padding-left: 50px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #e1e1e1; }
-  .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .thumb {
-    max-width: 95px;
-    height: 95px; }
-    .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .thumb img {
-      border-radius: 8px; }
-  .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .info {
-    margin-left: 15px;
-    width: calc(100% - 110px); }
-    .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .info h5 {
-      margin-top: -3px;
-      font-size: 18px;
-      font-weight: 600; }
-    .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .info a {
-      color: #1c27af; }
-      .deneb_single_blog .single_blog_wrapper .comment_wrapper .single_comment .info a i {
-        margin-right: 10px; }
-.deneb_single_blog .single_blog_wrapper .comment_form_wrap h3 {
-  font-weight: bold;
-  margin-bottom: 25px;
-  font-size: 25px; }
-.deneb_single_blog .single_blog_wrapper .comment_form_wrap .comment_form .form_group {
-  margin-bottom: 30px; }
-  .deneb_single_blog .single_blog_wrapper .comment_form_wrap .comment_form .form_group .form_control {
-    border-radius: 30px;
-    width: 100%;
-    height: 45px;
-    background: #fff;
-    padding-left: 20px;
-    box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15); }
-    .deneb_single_blog .single_blog_wrapper .comment_form_wrap .comment_form .form_group .form_control:focus {
-      border: 1px solid #1c27af; }
-  .deneb_single_blog .single_blog_wrapper .comment_form_wrap .comment_form .form_group textarea {
-    padding-top: 20px;
-    min-height: 145px; }
-.deneb_single_blog .single_blog_wrapper .comment_form_wrap .comment_form .button_box .deneb_btn {
-  min-width: 170px; }
-
-.deneb_contact {
-  position: relative; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .deneb_contact .section_title {
-      margin: 0;
-      margin-bottom: 60px; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .deneb_contact .deneb_img_box {
-      margin-bottom: 60px; } }
-  @media (max-width: 767px) {
-    .deneb_contact .deneb_img_box {
-      margin-bottom: 60px; } }
-  .deneb_contact .contact_form .form_group {
-    margin-bottom: 30px; }
-    .deneb_contact .contact_form .form_group .form_control {
-      border-radius: 30px;
-      width: 100%;
-      height: 45px;
-      background: #fff;
-      padding-left: 20px;
-      box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15); }
-    .deneb_contact .contact_form .form_group textarea {
-      padding-top: 20px;
-      min-height: 145px; }
-  .deneb_contact .contact_form .button_box .deneb_btn {
-    min-width: 170px; }
-
-.contact_v1 {
-  padding-bottom: 100px;
-  z-index: 1; }
-  .contact_v1:after {
-    position: absolute;
-    content: '';
-    left: 0;
-    bottom: 100px;
-    background: url(../images/shape/shape_15.png) no-repeat;
-    background-position: bottom left;
-    width: 100%;
-    height: 100%;
-    z-index: -1; }
-
-.contact_v1 .section_title h2 {
-  position: relative; }
-  .contact_v1 .section_title h2:after {
-    left: -20px; }
-
-.cantact_v2 {
-  padding-top: 120px; }
-  .cantact_v2 .section_title h2 {
-    position: relative; }
-    .cantact_v2 .section_title h2:after {
-      left: -30px; }
-
-.cantact_v2 .section_title {
-  margin: 0;
-  margin-bottom: 40px; }
-.cantact_v2 .contact_form .form_group select {
-  border-radius: 30px;
-  width: 100%;
-  height: 45px;
-  background: #fff;
-  padding-left: 20px;
-  box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15); }
-  .cantact_v2 .contact_form .form_group select option {
-    max-width: 300px; }
-
-.deneb_map {
-  padding-bottom: 170px; }
-  .deneb_map .map_box iframe {
-    width: 100%;
-    height: 540px;
-    border: none;
-    display: inherit; }
-
 .deneb_cta .cta_wrapper {
   padding: 45px 50px 42px;
   max-width: 970px;
@@ -1979,8 +1506,100 @@ body p {
   width: 85%;
   height: auto;
   margin-top: 80px; }
-
-.marginbot {
+.deneb_achivement .marginbot {
   margin-bottom: 20px; }
+
+@media screen and (min-width: 1023px) and (max-width: 1199px) {
+  .header_area .site_menu .primary_menu .main_menu ul li {
+    position: relative;
+    display: inline-block;
+    margin-left: 66px; }
+
+  .about_v1 .deneb_img_box {
+    max-width: unset; }
+    .about_v1 .deneb_img_box #jm-research-vid {
+      width: 100%; }
+
+  .mapouter .gmap_canvas #gmap_canvas {
+    width: 100%; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .deneb_achivement .deneb_img_box {
+    overflow-y: hidden;
+    max-height: 512px; }
+
+  .about_v1 .deneb_img_box {
+    max-width: 100%; }
+
+  #jm-research-vid {
+    width: 100%;
+    height: auto;
+    min-height: 400px !important; } }
+@media screen and (max-width: 1439px) {
+  .deneb_achivement .deneb_content_box {
+    padding-right: 15px;
+    padding-left: 15px; } }
+@media screen and (max-width: 834px) {
+  .deneb_pricing .content {
+    padding-left: 15px;
+    paddig-right: 15px; } }
+@media screen and (max-width: 991px) {
+  .containerMain, .containerRes, .serviceContainer, .directionContainer {
+    display: flex;
+    flex-flow: column-reverse;
+    margin: 0px !important; }
+
+  body section {
+    margin-bottom: 0px; }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 0px; }
+
+  .deneb_about .deneb_content_box {
+    margin-bottom: 60px; }
+
+  .deneb_achivement {
+    margin-bottom: 60px; }
+    .deneb_achivement .deneb_img_box img {
+      margin-top: 60px; }
+
+  .deneb_project {
+    margin-bottom: 60px; }
+    .deneb_project .deneb_img_box {
+      margin-top: 60px; }
+
+  .deneb_pricing.pricing_v1 {
+    margin-bottom: 60px; }
+
+  .mapouter {
+    margin: 60px 0;
+    width: 100%; }
+    .mapouter #gmap_canvas {
+      width: 100%; }
+
+  #jm-research-vid {
+    width: 100%;
+    height: auto;
+    min-height: 282px; }
+
+  .deneb_achivement .deneb_img_box img {
+    width: 100%;
+    height: auto;
+    padding: 0 10px; }
+
+  .deneb_about .deneb_content_box {
+    margin-left: 0px; } }
+@media screen and (min-width: 416px) and (max-width: 565px) {
+  .jm-banner {
+    transform: translateX(9%); } }
+@media screen and (min-width: 376px) and (max-width: 416px) {
+  #jm-research-vid {
+    width: 100%;
+    height: auto;
+    min-height: 220px !important; } }
+@media screen and (min-width: 319px) and (max-width: 376px) {
+  #jm-research-vid {
+    width: 100%;
+    height: auto;
+    min-height: 190px !important; } }
 
 /*# sourceMappingURL=style.css.map */
