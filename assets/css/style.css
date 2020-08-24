@@ -506,6 +506,8 @@ input.form_control {
   .deneb_banner .hero_slider .signle_slider .banner_content h5 {
     font-weight: 500;
     margin-bottom: 15px; }
+  .deneb_banner .hero_slider .signle_slider .banner_content .phone a {
+    color: black; }
   .deneb_banner .hero_slider .signle_slider .deneb_img_box {
     position: relative;
     float: right;

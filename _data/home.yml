@@ -3,7 +3,7 @@ pronouns: She, Her, Hers
 title: Professor | Computer Science
 workplace: University of British Columbia
 email: joanna@cs.ubc.ca
-office: "ICICS/CS X665 "
+office: " ICICS/CS X665 "
 phone: 604 827-5201
 fax: 604 822-4231
 address_1: 201-2366 Main Mall
@@ -12,5 +12,5 @@ address_2: |
   University of British Columbia
   Vancouver, B.C., V6T 1Z4
   Canada
-button_name: Calendar
+button_name: Free/Busy Calendar
 button_url: https://www.cs.ubc.ca/~joanna/schedule.html
