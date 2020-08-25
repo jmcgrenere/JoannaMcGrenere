@@ -433,7 +433,7 @@ input.form_control {
         .header_area .sidenav_menu .sidebar-menu li a .deneb_btn {
           padding: 0; }
     .header_area .sidenav_menu .sidebar-menu .active a {
-      color: #1c27af; }
+      color: #1c27af !important; }
   .header_area .active {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -1518,6 +1518,9 @@ body p {
   margin-bottom: 20px; }
 
 @media screen and (min-width: 1023px) and (max-width: 1199px) {
+  #jm-research-vid {
+    width: 100%; }
+
   .header_area .site_menu .primary_menu .main_menu ul li {
     position: relative;
     display: inline-block;
