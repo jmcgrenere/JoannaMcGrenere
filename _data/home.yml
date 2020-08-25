@@ -12,5 +12,5 @@ address_2: |
   University of British Columbia
   Vancouver, B.C., V6T 1Z4
   Canada
-button_name: Free/Busy Calendar
-button_url: https://www.cs.ubc.ca/~joanna/schedule.html
+button_name: My Calendar
+button_url: /calendar

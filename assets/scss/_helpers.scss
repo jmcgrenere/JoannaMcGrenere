@@ -1,3 +1,10 @@
+.schedule-title-jm {
+  width: 100%;
+  margin: 25px 0;
+  h3 {
+    color: $theme_color;
+  }
+}
 .title-mb {
   margin-bottom: 25px !important;
 }
@@ -27,9 +34,6 @@
   margin-bottom: 25px;
   font-size: 15px;
 }
-
-
-
 
 ul.list-item-spacing {
   padding-left:30px;

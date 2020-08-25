@@ -195,7 +195,7 @@
 	    	}
 	    	& .active{
 				a{
-					color: $theme_color;
+					color: $theme_color !important;
 				}
 			}
 	    }
