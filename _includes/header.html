@@ -39,9 +39,9 @@
 					<a href="#" class="close_btn"><i class="fas fa-times"></i></a>
 				</div>
 				<ul class="sidebar-menu">
-					<li class="menu-item"><a href="{{site.url}}">Home</a></li>
+					<li class="menu-item"><a data-target="#home"  class="jm-site-navigation" href="{{site.url}}">Home</a></li>
                     {% for menu in site.data.navigation %}
-					<li class="menu-item"><a href="{{menu.url}}">{{menu.text}}</a>
+					<li class="menu-item"><a data-target="{{menu.url}}"  class="jm-site-navigation" href="{{menu.url}}">{{menu.text}}</a>
 						{% if menu.submenu %}
 						<ul class="sub-menu">
 						   {% for submenu_item in menu.submenu %}
