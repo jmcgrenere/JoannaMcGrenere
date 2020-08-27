@@ -5,7 +5,6 @@ workplace: University of British Columbia
 email: joanna@cs.ubc.ca
 office: " ICICS/CS X665 "
 phone: 604 827-5201
-fax: 604 822-4231
 address_1: 201-2366 Main Mall
 address_2: |
   Dept. of Computer Science
@@ -13,4 +12,4 @@ address_2: |
   Vancouver, B.C., V6T 1Z4
   Canada
 button_name: My Calendar
-button_url: /calendar
+button_url: calendar.html

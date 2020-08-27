@@ -26,6 +26,9 @@ CSS INDEX
 12. Footer css
 -----------------------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500,700&display=swap");
+#jm-email {
+  cursor: pointer; }
+
 .schedule-title-jm {
   width: 100%;
   margin: 25px 0; }
@@ -512,7 +515,7 @@ input.form_control {
   .deneb_banner .hero_slider .signle_slider .banner_content h5 {
     font-weight: 500;
     margin-bottom: 15px; }
-  .deneb_banner .hero_slider .signle_slider .banner_content .phone a {
+  .deneb_banner .hero_slider .signle_slider .banner_content .fax a, .deneb_banner .hero_slider .signle_slider .banner_content .address a {
     color: black; }
   .deneb_banner .hero_slider .signle_slider .deneb_img_box {
     position: relative;
@@ -1518,9 +1521,6 @@ body p {
   margin-bottom: 20px; }
 
 @media screen and (min-width: 1023px) and (max-width: 1199px) {
-  #jm-research-vid {
-    width: 100%; }
-
   .header_area .site_menu .primary_menu .main_menu ul li {
     position: relative;
     display: inline-block;
@@ -1532,6 +1532,9 @@ body p {
       width: 100%; }
 
   .mapouter .gmap_canvas #gmap_canvas {
+    width: 100%; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #jm-research-vid {
     width: 100%; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .deneb_achivement .deneb_img_box {

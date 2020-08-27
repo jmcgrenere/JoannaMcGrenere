@@ -146,5 +146,24 @@ if($("#search-input").length >0){
             scrollTop: $(targetID).offset().top - 80
         }, 1000);
     });
+    $("#menu .menu-item").click(function () {
+        $("#menu .menu-item.active_link").removeClass('active_link');
+        $(this).addClass("active_link");
+    });
 
+    $("#jm-email").click(function () {
+        console.log($(this)[0].innerText);
+        var temp = $("<input>");
+        $("body").append(temp);
+        temp.val($(this)[0].innerText).select();
+        document.execCommand("copy");
+        $("#copy-notifier").css({
+            "display": "inline-block",
+            "color": "#6f6d6d",
+            "font-size": "18px"
+        });
+        $("#copy-notifier").fadeOut(1500, function () {
+        });
+        temp.remove();
+    });
 })(window.jQuery);   
