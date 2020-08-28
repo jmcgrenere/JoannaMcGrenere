@@ -1,6 +1,6 @@
 <!-- Start service section -->
 <section class="deneb_project project_v1">
-	<div class="shape_v3">
+	<div class="shape_v3 d-none d-lg-block ">
 		<img src="{{site.baseurl}}/assets/images/shape/shape_10.png" class="shape_10" alt="">
 	</div>
 	<div class="container">
@@ -15,7 +15,7 @@
 				<div class="deneb_content_box wow fadeInRight">
 					<h2 class="jm-research-title title-mb" id="services">{{site.data.service.title}}</h2>
 					{% for item in site.data.service.content %}
-					<h5 class="subtitle-mb">{{item.subtitle}}</h5>
+					<h6 class="subtitle-mb">{{item.subtitle}}</h6>
 					<div class="jm-bullist2">
 						<ul>
 							<li>{{item.body}}</li>

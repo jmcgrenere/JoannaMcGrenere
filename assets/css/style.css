@@ -52,7 +52,8 @@ CSS INDEX
 
 .bio {
   font-size: 15px;
-  margin-bottom: 32px; }
+  margin-bottom: 32px;
+  color: #535252 !important; }
 
 .dir {
   margin-bottom: 25px;
@@ -104,7 +105,7 @@ h1 {
   font-weight: 700; }
 
 h2 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700; }
 
 h3 {
@@ -117,11 +118,13 @@ h5 {
   font-size: 20px; }
 
 h6 {
-  font-size: 16px; }
+  font-size: 18px; }
 
 p {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-size: 16px;
+  color: #2c2d2d; }
 
 ul {
   margin: 0;
@@ -149,7 +152,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   line-height: 24px;
-  color: #7a808d;
   font-weight: normal;
   overflow-x: hidden; }
 
@@ -468,13 +470,18 @@ input.form_control {
 .jm-banner .jm-icons {
   margin: 5px 0;
   color: black; }
+.jm-banner .jm-name {
+  color: #1c27af; }
+.jm-banner h2 {
+  color: #1c27af; }
 .jm-banner .jm-pronouns {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0px;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  color: #535252; }
 .jm-banner .jm-title {
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 18px;
   color: black; }
 .jm-banner .jm-workplace {
   font-size: 18px;
@@ -577,6 +584,13 @@ input.form_control {
   left: 40px;
   bottom: 60px; }
 
+.containerRes .deneb_img_box {
+  width: 100%;
+  height: 100%; }
+  .containerRes .deneb_img_box #jm-research-vid {
+    width: 100%;
+    height: 100%; }
+
 #jm-bullist ul {
   line-height: 30px;
   padding-left: 25px; }
@@ -586,7 +600,7 @@ input.form_control {
     color: black; }
 
 .deneb_about .deneb_content_box .jm-research-title {
-  top: -10px !important;
+  top: -8px !important;
   margin-bottom: 15px !important; }
 
 .deneb_about {
@@ -820,9 +834,6 @@ input.form_control {
       font-size: 20px;
       color: #1c27af;
       font-weight: 600; }
-
-body p {
-  font-size: 18px; }
 
 .jm-research {
   max-width: none; }
@@ -1516,7 +1527,7 @@ body p {
   float: right;
   width: 85%;
   height: auto;
-  margin-top: 80px; }
+  margin-top: 69px; }
 .deneb_achivement .marginbot {
   margin-bottom: 20px; }
 
@@ -1557,7 +1568,7 @@ body p {
     padding-left: 15px;
     paddig-right: 15px; } }
 @media screen and (max-width: 991px) {
-  .containerMain, .containerRes, .serviceContainer, .directionContainer {
+  .containerRes, .serviceContainer, .directionContainer {
     display: flex;
     flex-flow: column-reverse;
     margin: 0px !important; }
@@ -1602,14 +1613,19 @@ body p {
 
   .deneb_about .deneb_content_box {
     margin-left: 0px; } }
-@media screen and (min-width: 416px) and (max-width: 565px) {
-  .jm-banner {
-    transform: translateX(9%); } }
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .containerMain {
+    display: flex;
+    flex-flow: column-reverse;
+    margin: 0px !important; } }
 @media screen and (min-width: 376px) and (max-width: 416px) {
   #jm-research-vid {
     width: 100%;
     height: auto;
     min-height: 220px !important; } }
+@media screen and (min-width: 319px) and (max-width: 991px) {
+  .deneb_achivement:after {
+    content: unset; } }
 @media screen and (min-width: 319px) and (max-width: 376px) {
   #jm-research-vid {
     width: 100%;

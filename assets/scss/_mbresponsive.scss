@@ -81,7 +81,7 @@
 }
 
 @media screen and (max-width: 991px) {
-  .containerMain, .containerRes, .serviceContainer, .directionContainer{
+  .containerRes, .serviceContainer, .directionContainer{
     display: flex;
     flex-flow: column-reverse;
     margin: 0px !important;
@@ -155,9 +155,14 @@
 } // end of max-width: 768 px
 // .deneb_about .deneb_content_box margin-left-15px
 
-@media screen and (min-width:416px) and (max-width:565px) {
-  .jm-banner {
-    transform: translateX(9%);
+@media screen and (min-width:319px) and (max-width:767px) {
+  //.jm-banner {
+  //  transform: translateX(9%);
+  //}
+  .containerMain {
+    display: flex;
+    flex-flow: column-reverse;
+    margin: 0px !important;
   }
 
 }
@@ -166,6 +171,13 @@
     width: 100%;
     height: auto;
     min-height: 220px !important;
+  }
+}
+@media screen and (min-width:319px) and (max-width:991px) {
+  .deneb_achivement{
+    &:after{
+      content: unset;
+    }
   }
 }
 @media screen and (min-width:319px) and (max-width:376px) {

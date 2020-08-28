@@ -9,14 +9,22 @@
 		margin: 5px 0;
 		color: black;
 	}
+
+	.jm-name {
+		color: $theme_color;
+	}
+	h2 {
+		color: $theme_color;
+	}
 	.jm-pronouns {
-		font-size: 20px;
+		font-size: 18px;
 		margin-top: 0px;
 		margin-bottom: 5px;
+		color: #535252;
 	}
 	.jm-title{
 		margin-bottom: 0px;
-		font-size: 20px;
+		font-size: 18px;
 		color: black;
 	}
 	.jm-workplace{
