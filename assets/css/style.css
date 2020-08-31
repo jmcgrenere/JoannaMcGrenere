@@ -52,12 +52,11 @@ CSS INDEX
 
 .bio {
   font-size: 15px;
-  margin-bottom: 32px;
-  color: #535252 !important; }
+  margin-bottom: 32px; }
 
 .dir {
   margin-bottom: 25px;
-  font-size: 15px; }
+  font-size: 15px !important; }
 
 ul.list-item-spacing {
   padding-left: 30px; }
@@ -123,8 +122,8 @@ h6 {
 p {
   margin: 0;
   padding: 0;
-  font-size: 16px;
-  color: #2c2d2d; }
+  font-size: 16px !important;
+  color: black; }
 
 ul {
   margin: 0;
@@ -478,14 +477,15 @@ input.form_control {
   font-size: 18px;
   margin-top: 0px;
   margin-bottom: 5px;
-  color: #535252; }
+  color: #525050; }
 .jm-banner .jm-title {
   margin-bottom: 0px;
   font-size: 18px;
   color: black; }
 .jm-banner .jm-workplace {
   font-size: 18px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: black !important; }
 .jm-banner p {
   margin: 0px; }
 .jm-banner .mail-align {
@@ -602,6 +602,8 @@ input.form_control {
 .deneb_about .deneb_content_box .jm-research-title {
   top: -8px !important;
   margin-bottom: 15px !important; }
+.deneb_about .deneb_content_box .lighter {
+  color: #525050 !important; }
 
 .deneb_about {
   overflow: hidden; }
@@ -835,6 +837,9 @@ input.form_control {
       color: #1c27af;
       font-weight: 600; }
 
+.deneb_content_box .lighter {
+  color: #6b6a6a !important; }
+
 .jm-research {
   max-width: none; }
   .jm-research h2 {
@@ -1004,6 +1009,10 @@ input.form_control {
       .deneb_pricing .pircing_box .price h2 span {
         font-size: 20px;
         color: #1c27af; }
+
+.bio {
+  color: #525050 !important;
+  font-size: 15px !important; }
 
 .deneb_pricing .section_title h2 {
   position: relative; }
@@ -1523,6 +1532,8 @@ input.form_control {
       .deneb_footer .copyright_area .copyright_text p span {
         color: #1c27af; }
 
+.deneb_achivement .lighter {
+  color: #525050 !important; }
 .deneb_achivement .deneb_img_box img {
   float: right;
   width: 85%;
