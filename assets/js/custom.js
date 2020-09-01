@@ -17,12 +17,11 @@
     /*---------------------------------  
         sticky header JS
     -----------------------------------*/
-    $(window).on('scroll',function() {    
+    $(window).on('scroll',function() {
         var scroll = $(window).scrollTop();
          if (scroll < 200) {
           $(".header_area").removeClass("sticky");
-         }else{
-          // $(".header_area").addClass("sticky");
+         } else if(!$(".header_area").hasClass("sticky")) {
              $(".header_area").css({"display": "none"})
              $(".header_area").slideDown(500).addClass("sticky")
          }
