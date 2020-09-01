@@ -10,11 +10,9 @@
 		color: black;
 	}
 
-	.jm-name {
-		color: $theme_color;
-	}
 	h2 {
 		color: $theme_color;
+		font-size: 42px !important;
 	}
 	.jm-pronouns {
 		font-size: 18px;
@@ -61,11 +59,26 @@
 	.hero_slider{
 		.signle_slider{
 			.banner_content{
+				p {
+					font-size: 18px !important;
+				}
 				@media #{$md}{
 					margin-bottom: 60px;
+					h2 {
+						font-size: 35px !important;
+					}
+					p {
+						font-size: 16px !important;
+					}
 				}
 				@media #{$xs}{
 					margin-bottom: 60px;
+					h2 {
+						font-size: 35px !important;
+					}
+					p {
+						font-size: 16px !important;
+					}
 				}
 				h1{
 					font-weight: 500;
@@ -88,6 +101,7 @@
 						color: black;
 					}
 				}
+
 			}
 			.deneb_img_box{
 				position: relative;

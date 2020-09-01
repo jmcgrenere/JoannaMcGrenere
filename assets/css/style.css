@@ -469,10 +469,9 @@ input.form_control {
 .jm-banner .jm-icons {
   margin: 5px 0;
   color: black; }
-.jm-banner .jm-name {
-  color: #1c27af; }
 .jm-banner h2 {
-  color: #1c27af; }
+  color: #1c27af;
+  font-size: 42px !important; }
 .jm-banner .jm-pronouns {
   font-size: 18px;
   margin-top: 0px;
@@ -503,12 +502,22 @@ input.form_control {
 .deneb_banner {
   position: relative;
   padding-top: 120px; }
+  .deneb_banner .hero_slider .signle_slider .banner_content p {
+    font-size: 18px !important; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .deneb_banner .hero_slider .signle_slider .banner_content {
-      margin-bottom: 60px; } }
+      margin-bottom: 60px; }
+      .deneb_banner .hero_slider .signle_slider .banner_content h2 {
+        font-size: 35px !important; }
+      .deneb_banner .hero_slider .signle_slider .banner_content p {
+        font-size: 16px !important; } }
   @media (max-width: 767px) {
     .deneb_banner .hero_slider .signle_slider .banner_content {
-      margin-bottom: 60px; } }
+      margin-bottom: 60px; }
+      .deneb_banner .hero_slider .signle_slider .banner_content h2 {
+        font-size: 35px !important; }
+      .deneb_banner .hero_slider .signle_slider .banner_content p {
+        font-size: 16px !important; } }
   .deneb_banner .hero_slider .signle_slider .banner_content h1 {
     font-weight: 500;
     margin-left: -2px;

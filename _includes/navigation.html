@@ -1,6 +1,6 @@
 <nav class="main_menu">
     <ul>
-	  <li class="menu-item {% if page.url == '/' %} active_link {% endif %}"><a class="jm-site-navigation" data-target="#home" href="#home">Home</a></li>
+	  <li class="menu-item {% if page.url == '/' %} active_link {% endif %}"><a class="jm-site-navigation" data-target="#home" href="{{site.baseurl}}/#home">Home</a></li>
       {% for menu in site.data.navigation %}
       <li class="menu-item {% if page.url contains menu.url %} active_link {% endif %}"><a class="jm-site-navigation" data-target="{{menu.url}}" href="{{site.baseurl}}/{{menu.url}}">{{menu.text}}</a>
        {% if menu.submenu %}
