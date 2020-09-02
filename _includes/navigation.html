@@ -1,12 +1,12 @@
 <nav class="main_menu">
     <ul>
-	  <li class="menu-item {% if page.url == '/' %} active_link {% endif %}"><a class="jm-site-navigation" data-target="#home" href="#home">Home</a></li>
+	  <li class="menu-item {% if page.url == '/' %} active_link {% endif %}"><a class="jm-site-navigation" data-target="#home" href="{{site.baseurl}}/#home">Home</a></li>
       {% for menu in site.data.navigation %}
-      <li class="menu-item {% if page.url contains menu.url %} active_link {% endif %}"><a class="jm-site-navigation" data-target="{{menu.url}}" href="{{menu.url}}">{{menu.text}}</a>
+      <li class="menu-item {% if page.url contains menu.url %} active_link {% endif %}"><a class="jm-site-navigation" data-target="{{menu.url}}" href="{{site.baseurl}}/{{menu.url}}">{{menu.text}}</a>
        {% if menu.submenu %}
 		<ul class="sub-menu">
 			{% for submenu_item in menu.submenu %}
-			<li class="menu-item"><a data-target="{{submenu_item.url}}" href="{{submenu_item.url}}">{{submenu_item.text}}</a></li>
+			<li class="menu-item"><a data-target="{{submenu_item.url}}" href="{{site.baseurl}}/{{submenu_item.url}}">{{submenu_item.text}}</a></li>
 			{% endfor %}
 		</ul>
 		</li>

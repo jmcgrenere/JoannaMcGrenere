@@ -1,16 +1,16 @@
 <!-- Start biography section -->
 <section class="deneb_pricing pricing_v1">
-	<div class="shape_v4">
-		<img src="{{relative_url}}/assets/images/shape/shape_11.png" class="shape_11" alt="">
+	<div class="shape_v4 d-none d-lg-block">
+		<img src="{{site.baseurl}}/assets/images/shape/shape_11.png" class="shape_11" alt="">
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="wow fadeInUp content" id="biography">
+				<div class="content" id="biography">
 					<h2 class="title-mb">{{site.data.biography.title}}</h2>
 					<p class="bio">{{site.data.biography.content}}
 					</p>
-					<a target="_blank" href={{site.data.biography.button_url}} class="deneb_btn jm-calendar">{{site.data.biography.button_name}}</a>
+					<a target="_blank" href="{{site.baseurl}}/{{site.data.biography.button_url}}" class="deneb_btn jm-calendar">{{site.data.biography.button_name}}</a>
 				</div>
 			</div>
 		</div>

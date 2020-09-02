@@ -26,6 +26,9 @@ CSS INDEX
 12. Footer css
 -----------------------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500,700&display=swap");
+#jm-email {
+  cursor: pointer; }
+
 .schedule-title-jm {
   width: 100%;
   margin: 25px 0; }
@@ -53,7 +56,7 @@ CSS INDEX
 
 .dir {
   margin-bottom: 25px;
-  font-size: 15px; }
+  font-size: 15px !important; }
 
 ul.list-item-spacing {
   padding-left: 30px; }
@@ -63,7 +66,7 @@ ul.list-item-spacing {
     font-size: 16px;
     color: black; }
 
-a.deneb_btn:hover {
+a.deneb_btn:hover, a.deneb_btn:focus, a.deneb_btn:visited {
   box-shadow: 2.5px 4.33px 15px 0px #c2d2f5 !important; }
 
 figure {
@@ -86,7 +89,7 @@ html {
 
 a {
   text-decoration: none; }
-  a:hover, a:focus {
+  a:hover, a:visited, a:focus {
     text-decoration: none;
     outline: none; }
 
@@ -101,7 +104,7 @@ h1 {
   font-weight: 700; }
 
 h2 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700; }
 
 h3 {
@@ -114,11 +117,13 @@ h5 {
   font-size: 20px; }
 
 h6 {
-  font-size: 16px; }
+  font-size: 18px; }
 
 p {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-size: 16px !important;
+  color: black; }
 
 ul {
   margin: 0;
@@ -146,7 +151,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   line-height: 24px;
-  color: #7a808d;
   font-weight: normal;
   overflow-x: hidden; }
 
@@ -465,17 +469,22 @@ input.form_control {
 .jm-banner .jm-icons {
   margin: 5px 0;
   color: black; }
+.jm-banner h2 {
+  color: #1c27af;
+  font-size: 42px !important; }
 .jm-banner .jm-pronouns {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0px;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  color: #525050; }
 .jm-banner .jm-title {
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 18px;
   color: black; }
 .jm-banner .jm-workplace {
   font-size: 18px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: black !important; }
 .jm-banner p {
   margin: 0px; }
 .jm-banner .mail-align {
@@ -493,12 +502,22 @@ input.form_control {
 .deneb_banner {
   position: relative;
   padding-top: 120px; }
+  .deneb_banner .hero_slider .signle_slider .banner_content p {
+    font-size: 18px !important; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .deneb_banner .hero_slider .signle_slider .banner_content {
-      margin-bottom: 60px; } }
+      margin-bottom: 60px; }
+      .deneb_banner .hero_slider .signle_slider .banner_content h2 {
+        font-size: 35px !important; }
+      .deneb_banner .hero_slider .signle_slider .banner_content p {
+        font-size: 16px !important; } }
   @media (max-width: 767px) {
     .deneb_banner .hero_slider .signle_slider .banner_content {
-      margin-bottom: 60px; } }
+      margin-bottom: 60px; }
+      .deneb_banner .hero_slider .signle_slider .banner_content h2 {
+        font-size: 35px !important; }
+      .deneb_banner .hero_slider .signle_slider .banner_content p {
+        font-size: 16px !important; } }
   .deneb_banner .hero_slider .signle_slider .banner_content h1 {
     font-weight: 500;
     margin-left: -2px;
@@ -512,7 +531,7 @@ input.form_control {
   .deneb_banner .hero_slider .signle_slider .banner_content h5 {
     font-weight: 500;
     margin-bottom: 15px; }
-  .deneb_banner .hero_slider .signle_slider .banner_content .phone a {
+  .deneb_banner .hero_slider .signle_slider .banner_content .fax a, .deneb_banner .hero_slider .signle_slider .banner_content .address a {
     color: black; }
   .deneb_banner .hero_slider .signle_slider .deneb_img_box {
     position: relative;
@@ -574,6 +593,13 @@ input.form_control {
   left: 40px;
   bottom: 60px; }
 
+.containerRes .deneb_img_box {
+  width: 100%;
+  height: 100%; }
+  .containerRes .deneb_img_box #jm-research-vid {
+    width: 100%;
+    height: 100%; }
+
 #jm-bullist ul {
   line-height: 30px;
   padding-left: 25px; }
@@ -583,8 +609,10 @@ input.form_control {
     color: black; }
 
 .deneb_about .deneb_content_box .jm-research-title {
-  top: -10px !important;
+  top: -8px !important;
   margin-bottom: 15px !important; }
+.deneb_about .deneb_content_box .lighter {
+  color: #525050 !important; }
 
 .deneb_about {
   overflow: hidden; }
@@ -818,8 +846,8 @@ input.form_control {
       color: #1c27af;
       font-weight: 600; }
 
-body p {
-  font-size: 18px; }
+.deneb_content_box .lighter {
+  color: #6b6a6a !important; }
 
 .jm-research {
   max-width: none; }
@@ -990,6 +1018,10 @@ body p {
       .deneb_pricing .pircing_box .price h2 span {
         font-size: 20px;
         color: #1c27af; }
+
+.bio {
+  color: #525050 !important;
+  font-size: 15px !important; }
 
 .deneb_pricing .section_title h2 {
   position: relative; }
@@ -1509,18 +1541,17 @@ body p {
       .deneb_footer .copyright_area .copyright_text p span {
         color: #1c27af; }
 
+.deneb_achivement .lighter {
+  color: #525050 !important; }
 .deneb_achivement .deneb_img_box img {
   float: right;
   width: 85%;
   height: auto;
-  margin-top: 80px; }
+  margin-top: 69px; }
 .deneb_achivement .marginbot {
   margin-bottom: 20px; }
 
 @media screen and (min-width: 1023px) and (max-width: 1199px) {
-  #jm-research-vid {
-    width: 100%; }
-
   .header_area .site_menu .primary_menu .main_menu ul li {
     position: relative;
     display: inline-block;
@@ -1532,6 +1563,9 @@ body p {
       width: 100%; }
 
   .mapouter .gmap_canvas #gmap_canvas {
+    width: 100%; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #jm-research-vid {
     width: 100%; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .deneb_achivement .deneb_img_box {
@@ -1554,7 +1588,7 @@ body p {
     padding-left: 15px;
     paddig-right: 15px; } }
 @media screen and (max-width: 991px) {
-  .containerMain, .containerRes, .serviceContainer, .directionContainer {
+  .containerRes, .serviceContainer, .directionContainer {
     display: flex;
     flex-flow: column-reverse;
     margin: 0px !important; }
@@ -1599,14 +1633,19 @@ body p {
 
   .deneb_about .deneb_content_box {
     margin-left: 0px; } }
-@media screen and (min-width: 416px) and (max-width: 565px) {
-  .jm-banner {
-    transform: translateX(9%); } }
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .containerMain {
+    display: flex;
+    flex-flow: column-reverse;
+    margin: 0px !important; } }
 @media screen and (min-width: 376px) and (max-width: 416px) {
   #jm-research-vid {
     width: 100%;
     height: auto;
     min-height: 220px !important; } }
+@media screen and (min-width: 319px) and (max-width: 991px) {
+  .deneb_achivement:after {
+    content: unset; } }
 @media screen and (min-width: 319px) and (max-width: 376px) {
   #jm-research-vid {
     width: 100%;

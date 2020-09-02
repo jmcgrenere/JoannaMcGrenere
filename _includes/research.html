@@ -3,12 +3,12 @@
 	<div class="container">
 		<div class="row containerRes">
 			<div class="col-lg-7">
-				<div class="deneb_img_box wow fadeInLeft">
-					<iframe id="jm-research-vid" width="650" height="400" src="https://www.youtube.com/embed/lyD0xYFsphA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="deneb_img_box">
+					<iframe title="Joanna McGrenere's research video." id="jm-research-vid" width="650" height="400" src="https://www.youtube.com/embed/lyD0xYFsphA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="col-lg-5">
-				<div class="deneb_content_box wow fadeInRight">
+				<div class="deneb_content_box">
 					<h2 class="jm-research-title">{{site.data.research.title}}</h2>
 					<p>{{site.data.research.para_1}}</p>
 					<div id="jm-bullist">
@@ -18,10 +18,10 @@
 							{% endfor %}
 						</ul>
 					</div>
-					<p class="para_space padding-btm0">{{site.data.research.para_2}}</p>
+					<p class="para_space padding-btm0 lighter">{{site.data.research.para_2}}</p>
 
 
-					<a target="_blank" href="{{site.data.research.button_url}}" class="deneb_btn">{{site.data.research.button_name}}</a>
+					<a target="_blank" href="{{site.baseurl}}/{{site.data.research.button_url}}" class="deneb_btn">{{site.data.research.button_name}}</a>
 				</div>
 			</div>
 		</div>
