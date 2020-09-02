@@ -66,7 +66,7 @@ ul.list-item-spacing {
     font-size: 16px;
     color: black; }
 
-a.deneb_btn:hover {
+a.deneb_btn:hover, a.deneb_btn:focus, a.deneb_btn:visited {
   box-shadow: 2.5px 4.33px 15px 0px #c2d2f5 !important; }
 
 figure {
@@ -89,7 +89,7 @@ html {
 
 a {
   text-decoration: none; }
-  a:hover, a:focus {
+  a:hover, a:visited, a:focus {
     text-decoration: none;
     outline: none; }
 
