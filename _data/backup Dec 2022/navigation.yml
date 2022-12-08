@@ -1,0 +1,13 @@
+#Please use the main menu items under the "text"
+- text: Research
+  url: "#research"
+- text: Teaching
+  url: "#teaching"
+- text: Service
+  url: "#services"
+- text: Biography
+  url: "#biography"
+- text: Directions
+  url: "#directions"
+
+ 

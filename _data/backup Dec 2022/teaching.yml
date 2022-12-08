@@ -1,16 +1,16 @@
 title: Teaching
 para_1: >
-  I am on sabbatical this year (2022-2023). I typically teach courses on Human-Computer Interaction (HCI), at both the undergrad and graduate level, as well as first year introduction to computation and programming.
+  I typically teach courses on Human-Computer Interaction (HCI), at both the undergrad and graduate level, as well as first year introduction to computation and programming.
 subtitles:
-  - subtitle: "Last Two Years (2020/21 and 2021/22):"
+  - subtitle: "Current Year (2020/21):"
     courses:
-      - course: <a target="blank" href = "https://cs110.students.cs.ubc.ca/">CPSC 110</a>- first year undergrad course on Computation, Programs, and Programming
+      - course: <a target="blank" href = "https://sites.google.com/site/ubccpsc110/">CPSC 110</a>- first year undergrad course on Computation, Programs, and Programming
       - course: <a target="blank" href = "https://www.students.cs.ubc.ca/~cs-444/index.html">CPSC 444</a>- fourth year undergrad course in Advanced HCI Methods
 
-  - subtitle: "Prior Year (2019/2020):"
+  - subtitle: "Last Year (2019/2020):"
     courses:
       - course: <a target="blank" href = "https://blogs.ubc.ca/cpsc544/home/">CPSC 544</a>- graduate course in HCI on the Fundamentals of Designing Interactive Computational Technology for People (DFP)
       - course: <a target="blank" href = "https://www.students.cs.ubc.ca/~cs-444/index.html">CPSC 444</a>- fourth year undergrad course in Advanced HCI Methods
-para_2: "Full details can be found starting on page 2 of my "
+para_2: "Full details can be found on page 2 of my "
 cv_name: "CV"
 cv_path: "/assets/images/CV_McGrenere.pdf"
